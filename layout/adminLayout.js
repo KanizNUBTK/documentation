@@ -102,7 +102,7 @@ const menu = [
             {
                 label: 'Website Setting',
                 icon: FaTools,
-                href: '/admin',
+                href: '/admin/landingPage',
             },
         ]
     },
