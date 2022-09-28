@@ -53,8 +53,8 @@ const Sidebar = ({ menu }) => {
             "Yes, Leave"
         );
         if (isConfirmed) {
-            localStorage.removeItem("taxantsToken");
-            router.push("https://taxants.tk/login/");
+            localStorage.removeItem("");
+            router.push("");
         }
     }
 
@@ -63,14 +63,11 @@ const Sidebar = ({ menu }) => {
             <div className="sidebar-bg" onClick={removeMenu} />
             <nav className="sidebar">
                 <div className='sidebarBg pb-10'>
-                    <div className="h-16 pt-3 flex justify-center c_logo items-center text-gray-300">
-                        <img src='/images/logo-new.png' alt="logo" className="inline-block" />
-                    </div>
 
                     <div className='h-20 border-t border-b border-gray-500 flex items-center justify-center site-title'>
                         <img src='/images/admin_avatar.png' alt="image-profile" width={45} height={45}
                             className="inline-block" />
-                        <span className='inline-block ml-3 text-gray-300 font-semibold'>Welcome Admin</span>
+                        <span className='inline-block ml-3 text-gray-300 font-semibold'>Welcome</span>
                     </div>
 
                     <MetisMenu>
@@ -122,18 +119,6 @@ const Sidebar = ({ menu }) => {
                             )
                         })}
                     </MetisMenu>
-
-                    {/* logout */}
-                    <Link href="">
-                        <a className="pl-10 ml-1 hover:text-gray-50  text-gray-200 text-[15px] hover:translate-x-1 inline-block transition duration-500 c_logout" onClick={handleLogout}>
-                            <FaSignOutAlt className="inline-block mr-1 text-[20px] logout_icon" />
-                            <span
-                                className="inline-block ml-1"
-                            >
-                                <span className='logout_text'>Logout</span>
-                            </span>
-                        </a>
-                    </Link>
                 </div>
             </nav>
         </>

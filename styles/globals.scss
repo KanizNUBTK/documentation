@@ -9,9 +9,6 @@
 
 // apply css classes here
 
-.loginBgImg {
-  background-image: url('../public//images//login.jpg');
-}
 
 //side bar background
 .sidebarBg {
@@ -84,31 +81,7 @@
   @apply bg-red-600 px-3 py-2 rounded hover:bg-red-700 hover:scale-100 hover:outline-green-400 transition text-[16px]
 }
 
-//carousel background picture
-.bgPic1 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../public/images/bg1.jpg');
-  background-color: rgb(124, 122, 122);
-  background-blend-mode: multiply;
-}
-.bgPic2 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../public/images/bg2.jpg');
-  background-color: rgb(124, 122, 122);
-  background-blend-mode: multiply;
-}
 
-//student class background picture
-.studentBg {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../public/images/bg_services.jpg');
-}
 
 .footerBg{
   background: rgb(237,9,14);

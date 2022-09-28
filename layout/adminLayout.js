@@ -19,7 +19,7 @@ const AdminLayout = ({ children }) => {
         <div className="dashboard">
             <Sidebar menu={menu} />
             <Header />
-            <div className="absolute top-0 h-32 w-full bg-main" />
+            <div className="absolute top-0 h-32 w-full bg-main border" />
             <div className="main-content bg-[#EEEEEE]">
                 <div className="w-full z-30" style={{ minHeight: 400 }}>
                     {children}
@@ -33,91 +33,117 @@ export default AdminLayout;
 
 
 const menu = [
+    
     {
-        label: 'Dashboard',
-        icon: MdDashboard,
-        href: '/admin',
-        permission: 'dashboard'
-    },
-    {
-        label: 'Live Site',
-        icon: MdOutlineCenterFocusStrong,
-        href: 'https://taxants.tk/',
-    },
-    {
-        label: 'Admin Tax Files',
-        icon: MdAccountCircle,
-        href: '/admin/taxfiles',
-    },
-    {
-        label: 'Student Fields',
-        icon: MdPowerSettingsNew,
-        href: '/admin/student-fields',
-    },
-    {
-        label: 'Users',
-        icon: MdAccountCircle,
-        href: '/admin/users',
-    },
-    {
-        label: 'Province',
-        icon: MdLocationOn,
-        href: '/admin/province',
-    },
-    {
-        label: 'Coupon',
-        icon: MdCode,
-        href: '/admin/coupons',
-    },
-    {
-        label: 'Roles & Permission',
+        label: 'Instruction',
         icon: MdAnnouncement,
         child: [
             {
-                label: 'Roles',
+                label: 'Server Requirement',
                 icon: MdEditNote,
-                href: '/admin/roles',
+                href: '/instruction/server',
             },
             {
-                label: 'Permission',
+                label: 'Installation Process',
                 icon: MdRule,
-                href: '/admin/permissions',
+                href: '/instruction/install',
+            },
+            {
+                label: 'Manual Installation',
+                icon: MdRule,
+                href: '/instruction/manual',
+            },
+            {
+                label: 'Update Process',
+                icon: MdRule,
+                href: '/instruction/update',
+            },
+            {
+                label: 'Localhost Process',
+                icon: MdRule,
+                href: '/instruction/localhost',
             },
         ]
     },
     {
-        label: 'Website Setting',
+        label: 'Admin Panel',
         icon: MdSettings,
         child: [
             {
-                label: 'Student Feedbacks',
+                label: 'Admin Login',
                 icon: MdFeedback,
-                href: '/admin/setting/feedbacks',
+                href: '/admin/login',
             },
             {
-                label: 'Customer Contact',
+                label: 'Admin Profile Setting',
                 icon: TiContacts,
-                href: '/admin/setting/contacts',
+                href: '/admin/profile',
             },
             {
-                label: 'TaxFile Pricing',
+                label: 'User Forms Feilds',
                 icon: AiFillDollarCircle,
-                href: '/admin/setting/taxfile-pricing',
+                href: '/admin/user-forms',
             },
             {
-                label: 'FrontEnd Pages',
+                label: 'Admin Tax Feilds',
                 icon: RiPagesFill,
-                href: '/admin/setting/frontend-pages',
+                href: '/admin',
             },
             {
-                label: 'FAQ Setting',
+                label: 'Coupon',
                 icon: FaQuestionCircle,
-                href: '/admin/setting/faq',
+                href: '/admin',
             },
             {
-                label: 'Site Setting',
+                label: 'Role And Permission',
                 icon: FaTools,
-                href: '/admin/setting/site-setting',
+                href: '/admin',
+            },
+            {
+                label: 'Website Setting',
+                icon: FaTools,
+                href: '/admin',
+            },
+        ]
+    },
+    {
+        label: 'Accountant Panel',
+        icon: MdSettings,
+        child: [
+            {
+                label: 'Admin Login',
+                icon: MdFeedback,
+                href: '/admin/login',
+            },
+            {
+                label: 'Admin Profile Setting',
+                icon: TiContacts,
+                href: '/admin/profile',
+            },
+            {
+                label: 'User Forms Feilds',
+                icon: AiFillDollarCircle,
+                href: '/admin/user-forms',
+            },
+            {
+                label: 'Admin Tax Feilds',
+                icon: RiPagesFill,
+                href: '/admin',
+            },
+            {
+                label: 'Coupon',
+                icon: FaQuestionCircle,
+                href: '/admin',
+            },
+            {
+                label: 'Role And Permission',
+                icon: FaTools,
+                href: '/admin',
+            },
+            {
+                label: 'Website Setting',
+                icon: FaTools,
+                href: '/admin',
             },
         ]
     },

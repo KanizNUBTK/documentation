@@ -1,5 +1,5 @@
-import Admin from "./admin";
-import HashLoader from "react-spinners/HashLoader";
+
+import AdminLayout from "../layout/adminLayout";
 
 
 export default function Home() {
@@ -7,10 +7,8 @@ export default function Home() {
 
 
     return (
-        <>
-          
-                <Admin />
+        <AdminLayout>
             
-        </>
+        </AdminLayout>
     );
 }
