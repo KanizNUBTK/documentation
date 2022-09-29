@@ -105,11 +105,6 @@ const menu = [
                 href: '/admin/allFiles',
             },
             {
-                label: 'Coupon',
-                icon: TiContacts,
-                href: '/admin/',
-            },
-            {
                 label: 'Role And Permission',
                 icon: TiContacts,
                 href: '/admin/rolePermission',
@@ -128,37 +123,37 @@ const menu = [
             {
                 label: 'Admin Login',
                 icon: TiContacts,
-                href: '/admin/login',
+                href: '',
             },
             {
                 label: 'Admin Profile Setting',
                 icon: TiContacts,
-                href: '/admin/profile',
+                href: '',
             },
             {
                 label: 'User Forms Feilds',
                 icon: TiContacts,
-                href: '/admin/user-forms',
+                href: '',
             },
             {
                 label: 'Admin Tax Feilds',
                 icon: TiContacts,
-                href: '/admin',
+                href: '',
             },
             {
                 label: 'Coupon',
                 icon: TiContacts,
-                href: '/admin',
+                href: '',
             },
             {
                 label: 'Role And Permission',
                 icon: TiContacts,
-                href: '/admin',
+                href: '',
             },
             {
                 label: 'Website Setting',
                 icon: TiContacts,
-                href: '/admin',
+                href: '',
             },
         ]
     },

@@ -65,7 +65,7 @@ const Sidebar = ({ menu }) => {
                 <div className='sidebarBg pb-10'>
 
                     <div className='h-16 border-2 rounded mx-2 border-red-300 flex items-center justify-center site-title'>
-                        <p className=' font-semibold'>Documentation</p>
+                        <p className='text-[18px] mb-0 font-semibold'>Documentation</p>
                     </div>
 
                     <MetisMenu>
