@@ -23,8 +23,9 @@ const AllTaxFiles = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Delete Option</h5>
                     <p>When you can delete a file or something, first you will see the e-notification pop-up bar, when you confirm, you can delete the document otherwise not.</p>
-                    <img className='h-[500px]' src="/images/fileDetail.png" alt="" />
+                    <img className='h-[300px]' src="/images/delete.png" alt="" />
                 </div>
+                
             </div>
         </AdminLayout>
     );

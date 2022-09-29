@@ -71,7 +71,7 @@ const menu = [
         child: [
             {
                 label: 'Admin Login',
-                icon: MdFeedback,
+                icon: TiContacts,
                 href: '/admin/login',
             },
             {
@@ -81,27 +81,42 @@ const menu = [
             },
             {
                 label: 'User Forms Feilds',
-                icon: AiFillDollarCircle,
-                href: '/admin/user-forms',
+                icon: TiContacts,
+                href: '/admin/userForms',
+            },
+            {
+                label: 'User ',
+                icon: TiContacts,
+                href: '/admin/user',
+            },
+            {
+                label: 'Province ',
+                icon: TiContacts,
+                href: '/admin/province',
+            },
+            {
+                label: 'Coupon ',
+                icon: TiContacts,
+                href: '/admin/coupon',
             },
             {
                 label: 'Admin Tax Feilds',
-                icon: RiPagesFill,
+                icon: TiContacts,
                 href: '/admin/allFiles',
             },
             {
                 label: 'Coupon',
-                icon: FaQuestionCircle,
-                href: '/admin',
+                icon: TiContacts,
+                href: '/admin/',
             },
             {
                 label: 'Role And Permission',
-                icon: FaTools,
-                href: '/admin',
+                icon: TiContacts,
+                href: '/admin/rolePermission',
             },
             {
                 label: 'Website Setting',
-                icon: FaTools,
+                icon: TiContacts,
                 href: '/admin/landingPage',
             },
         ]
@@ -112,7 +127,7 @@ const menu = [
         child: [
             {
                 label: 'Admin Login',
-                icon: MdFeedback,
+                icon: TiContacts,
                 href: '/admin/login',
             },
             {
@@ -122,27 +137,27 @@ const menu = [
             },
             {
                 label: 'User Forms Feilds',
-                icon: AiFillDollarCircle,
+                icon: TiContacts,
                 href: '/admin/user-forms',
             },
             {
                 label: 'Admin Tax Feilds',
-                icon: RiPagesFill,
+                icon: TiContacts,
                 href: '/admin',
             },
             {
                 label: 'Coupon',
-                icon: FaQuestionCircle,
+                icon: TiContacts,
                 href: '/admin',
             },
             {
                 label: 'Role And Permission',
-                icon: FaTools,
+                icon: TiContacts,
                 href: '/admin',
             },
             {
                 label: 'Website Setting',
-                icon: FaTools,
+                icon: TiContacts,
                 href: '/admin',
             },
         ]
