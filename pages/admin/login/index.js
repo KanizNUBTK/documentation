@@ -6,8 +6,8 @@ const Login = () => {
         <AdminLayout>
             <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px]'>
                 <div className='my-4'>
-                <h5 className='border-b-[1px] border-black'>Admin Login</h5>
-                    <div className='bg-gray-50 h-auto m-10 w-[90%] text-[16px]'>
+                    <h5 className='border-b-[1px] border-black'>Admin Login</h5>
+                    <div className='m-4'>
                         <p>You can access your admin dashboard by yourdomain.com/login. then you will see option to login to admin panel</p>
                         <img className='h-96' src='/images/login.png' alt="" />
                         <p>Here is default admin login details</p>
@@ -19,9 +19,11 @@ const Login = () => {
                     </div>
                 </div>
                 <div className='my-4'>
-                <h5 className='border-b-[1px] border-black'>Admin dashboard</h5>
-                <p>After login complete admin can see his personal dashboard</p>
-                <img src="/images/adDash.png" alt="" />
+                    <h5 className='border-b-[1px] border-black'>Admin dashboard</h5>
+                    <div className='m-4'>
+                        <p>After login complete admin can see his personal dashboard</p>
+                        <img src="/images/adDash.png" alt="" />
+                    </div>
                 </div>
             </div>
         </AdminLayout>
