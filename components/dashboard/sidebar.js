@@ -61,13 +61,11 @@ const Sidebar = ({ menu }) => {
     return (
         <>
             <div className="sidebar-bg" onClick={removeMenu} />
-            <nav className="sidebar">
+            <nav className="sidebar text-black">
                 <div className='sidebarBg pb-10'>
 
-                    <div className='h-20 border-t border-b border-gray-500 flex items-center justify-center site-title'>
-                        <img src='/images/admin_avatar.png' alt="image-profile" width={45} height={45}
-                            className="inline-block" />
-                        <span className='inline-block ml-3 text-gray-300 font-semibold'>Welcome</span>
+                    <div className='h-16 border-2 rounded mx-2 border-red-300 flex items-center justify-center site-title'>
+                        <p className=' font-semibold'>Documentation</p>
                     </div>
 
                     <MetisMenu>
@@ -79,7 +77,7 @@ const Sidebar = ({ menu }) => {
                                         <>
                                             <a className={`nav-item has-arrow ${isActive(item) ? item?.child?.length > 0 ? 'p-active' : 'active' : ''}`}>
                                                 <Icon className="inline-block" />
-                                                <span>{item.label}</span>
+                                                <span >{item.label}</span>
                                             </a>
                                             <ul className="sub-menu">
                                                 <li className="label">{item.label}</li>

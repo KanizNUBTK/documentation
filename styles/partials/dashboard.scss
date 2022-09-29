@@ -25,7 +25,7 @@
             @apply transition-all pt-2 mr-2;
 
             .nav-item {
-                @apply p-3 pl-2 block cursor-pointer text-sm text-gray-200 hover:text-gray-50 transition-all relative text-[15px] hover:bg-gray-700 hover:bg-opacity-40 hover:rounded-md;
+                @apply p-3 pl-2 block cursor-pointer text-sm text-black transition-all relative text-[15px] hover:bg-gray-700 hover:bg-opacity-40 hover:rounded-md;
 
                 svg {
                     @apply transition-all absolute top-3.5;
@@ -51,7 +51,7 @@
                 }
 
                 .nav-item {
-                    @apply py-3 hover:bg-none pl-3;
+                    @apply py-3 hover:bg-none pl-3 ;
                 }
 
                 li:last-child {

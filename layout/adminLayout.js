@@ -19,8 +19,8 @@ const AdminLayout = ({ children }) => {
         <div className="dashboard">
             <Sidebar menu={menu} />
             <Header />
-            <div className="absolute top-0 h-32 w-full bg-main border" />
-            <div className="main-content bg-[#EEEEEE]">
+            <div className="absolute top-0 h-32 w-full " />
+            <div className="main-content ">
                 <div className="w-full z-30" style={{ minHeight: 400 }}>
                     {children}
                 </div>
@@ -87,7 +87,7 @@ const menu = [
             {
                 label: 'Admin Tax Feilds',
                 icon: RiPagesFill,
-                href: '/admin',
+                href: '/admin/allFiles',
             },
             {
                 label: 'Coupon',

@@ -10,16 +10,6 @@
 // apply css classes here
 
 
-//side bar background
-.sidebarBg {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../public//images/sidebar-1.jpg');
-  background-color: rgb(37, 36, 36);
-  background-blend-mode: multiply;
-}
-
 .main {
   h1 {
     @apply text-[blueviolet] text-[25px] text-center mt-10
@@ -55,18 +45,7 @@
   @apply max-w-full
 }
 
-//side bar background picture
-.sidebarBg {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../public/images/sidebar-1.jpg');
-  background-color: rgb(48, 47, 47);
-  // background-color: black;
-  background-blend-mode: multiply;
 
-  min-height: 100vh;
-}
 
 //hover border collor
 .hoverBordercolor:hover {
