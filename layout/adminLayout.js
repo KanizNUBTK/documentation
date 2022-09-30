@@ -121,39 +121,40 @@ const menu = [
         icon: MdSettings,
         child: [
             {
-                label: 'Admin Login',
+                label: 'Accountant Login',
                 icon: TiContacts,
-                href: '',
+                href: '/accountant/login',
             },
             {
-                label: 'Admin Profile Setting',
+                label: 'Accountant ALl Files',
                 icon: TiContacts,
-                href: '',
+                href: '/accountant/allTaxFile',
+            },
+        ]
+    },
+    {
+        label: 'User Panel',
+        icon: MdSettings,
+        child: [
+            {
+                label: 'User Login',
+                icon: TiContacts,
+                href: '/user/login',
             },
             {
-                label: 'User Forms Feilds',
+                label: 'User Form Fill Up Process',
                 icon: TiContacts,
-                href: '',
+                href: '/user/form',
             },
             {
-                label: 'Admin Tax Feilds',
+                label: 'My Tax File',
                 icon: TiContacts,
-                href: '',
+                href: '/user/mytaxFile',
             },
             {
-                label: 'Coupon',
+                label: 'File Form A/C and Feedback',
                 icon: TiContacts,
-                href: '',
-            },
-            {
-                label: 'Role And Permission',
-                icon: TiContacts,
-                href: '',
-            },
-            {
-                label: 'Website Setting',
-                icon: TiContacts,
-                href: '',
+                href: '/user/fileAC',
             },
         ]
     },
