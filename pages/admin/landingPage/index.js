@@ -69,6 +69,9 @@ const LandingPage = () => {
                         <p>On this page you can add an additional page for your website, where you can specify the menu or footer to display. You can also delete and update data
                         </p>
                         <img className='h-[500px]' src="/images/more.png" alt="" />
+                        <p className='mt-4'>Admin can write any type of content through this draft board</p>
+                        <img className='h-[500px]' src="/images/draft.png" alt="" />
+                        
                     </div>
                 </div>
                 <div className='my-4'>
@@ -80,7 +83,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>More Pages</h5>
+                    <h5 className='border-b-[1px] border-black'>Query Pages</h5>
                     <div className='m-4'>
                         <p>
                             If any viewer has any type of query, they have to email you, this email can store on this page of your admin panel, the admin can view and reply to the email and also can delete this

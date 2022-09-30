@@ -158,6 +158,37 @@ const menu = [
             },
         ]
     },
+    {
+        label: 'Live Pages',
+        icon: MdSettings,
+        child: [
+            {
+                label: 'Home Page',
+                icon: TiContacts,
+                href: '/live/home',
+            },
+            {
+                label: 'About Page',
+                icon: TiContacts,
+                href: '/live/about',
+            },
+            {
+                label: 'Contact Page',
+                icon: TiContacts,
+                href: '/live/contact',
+            },
+            {
+                label: 'Tax Situation Pages',
+                icon: TiContacts,
+                href: '/live/taxSituation',
+            },
+            {
+                label: 'More Pages',
+                icon: TiContacts,
+                href: '/live/more',
+            },
+        ]
+    },
 ]
 
 
