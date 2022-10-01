@@ -33,35 +33,20 @@ export default AdminLayout;
 
 
 const menu = [
-    
+
     {
         label: 'Instruction',
         icon: MdAnnouncement,
         child: [
-            {
-                label: 'Server Requirement',
-                icon: MdEditNote,
-                href: '/instruction/server',
-            },
             {
                 label: 'Installation Process',
                 icon: MdRule,
                 href: '/instruction/install',
             },
             {
-                label: 'Manual Installation',
-                icon: MdRule,
-                href: '/instruction/manual',
-            },
-            {
-                label: 'Update Process',
-                icon: MdRule,
-                href: '/instruction/update',
-            },
-            {
-                label: 'Localhost Process',
-                icon: MdRule,
-                href: '/instruction/localhost',
+                label: 'Env File Setting',
+                icon: MdEditNote,
+                href: '/instruction/setting',
             },
         ]
     },
