@@ -27,10 +27,13 @@ const Setting = () => {
                     <div className='m-4 '>
                         <p>Through this section, the name of the database and the name of the website will be collected. To store data you have to use the MongoDB database.
                             <ul className='list-disc'>
-                                <li>At first, you have to open a MongoDB atlas account,<Link href="https://www.mongodb.com/atlas/database" >MongoDB database link</Link> </li>
-                                <li>then you can open a collection,</li>
+                                <li>At first, you have to open a MongoDB atlas account,<Link href="https://www.mongodb.com/atlas/database" >MongoDB database link</Link> 
+                                <img className='h-auto w-auto' src="/images/s6.png" alt="" /></li>
+                                <li>then you can open a collection,
+                                <img className='h-auto w-auto' src="/images/s7.png" alt="" />
+                                </li>
                                 <li> then you can get a collection URL,in this URL, you have to give your database username and password.
-                                    <Image className='h-auto w-auto' src="/images/s5.png" alt="" />
+                                    <img className='h-auto w-auto' src="/images/s5.png" alt="" />
                                 </li>
                                 <li> then you will get a collection URL that will be ready to use as a database string,
                                     After that, the URL can be placed in the input below</li>
