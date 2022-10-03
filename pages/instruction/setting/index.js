@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import AdminLayout from '../../../layout/adminLayout';
@@ -29,7 +30,7 @@ const Setting = () => {
                                 <li>At first, you have to open a MongoDB atlas account,<Link href="https://www.mongodb.com/atlas/database" >MongoDB database link</Link> </li>
                                 <li>then you can open a collection,</li>
                                 <li> then you can get a collection URL,in this URL, you have to give your database username and password.
-                                    <img className='h-auto w-auto' src="/images/s5.png" alt="" />
+                                    <Image className='h-auto w-auto' src="/images/s5.png" alt="" />
                                 </li>
                                 <li> then you will get a collection URL that will be ready to use as a database string,
                                     After that, the URL can be placed in the input below</li>
