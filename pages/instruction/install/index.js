@@ -10,7 +10,7 @@ const Install = () => {
                     <h5 className='border-b-[1px] border-black'>Install</h5>
                     <div className='m-4'>
                         <ul className='list-disc'>
-                            <li>First , You have to open Visual Studio Code, if you have no idea to intall Visual Studio Code <a href="https://code.visualstudio.com/" target='_blank'>Click here</a></li>
+                            <li>First , You have to open Visual Studio Code, if you have no idea to intall Visual Studio Code <a href="https://code.visualstudio.com/" target='_blank' rel="noreferrer">Click here</a></li>
                             <li>Then, You have to clone or download the project, If you want to clone the project Click he box 1 or download the zip file click box 2.
                                 <img className='h-auto w-auto' src="/images/i1.png" alt="" />
                             </li>
@@ -26,7 +26,7 @@ const Install = () => {
                             </li>
                             <li>If you have to clone the project:
                                 <ul className='list-disc'>
-                                    <li>First you need to install git bash <a href="https://git-scm.com/downloads" target='_blank'>Click here to download Git bash</a></li>
+                                    <li>First you need to install git bash <a href="https://git-scm.com/downloads" target='_blank' rel="noreferrer">Click here to download Git bash</a></li>
                                     <li>After git bash install complete, you have to open Visual Studio Code and open the terminal window, then copy clone the project url and paste it with the command <span className='text-red-500 text-[20px]'> git clone (project url) </span>hit enter</li>
                                     <li>then open terminal window and give the command <span className='text-red-500 text-[20px]'>npm install -g yarn</span>, press enter,for intall yarn</li>
                                     <li>After yarn install, give <span className='text-red-500 text-[20px]'>yarn</span> command, press enter, for intall necessary modules and package</li>
@@ -45,7 +45,7 @@ const Install = () => {
                             </li>
                             <li>If you have to clone the project:
                                 <ul className='list-disc'>
-                                    <li>First you need to install git bash <a href="https://git-scm.com/downloads" target='_blank'>Click here to download Git bash</a></li>
+                                    <li>First you need to install git bash <a href="https://git-scm.com/downloads" target='_blank' rel="noreferrer">Click here to download Git bash</a></li>
                                     <li>After git bash install complete, you have to open Visual Studio Code and open the terminal window, then copy clone the project url and paste it with the command <span className='text-red-500 text-[20px]'> git clone (project url) </span>hit enter</li>
                                     <li>then open terminal window and give the command <span className='text-red-500 text-[20px]'>npm install -g yarn</span>, press enter,for intall yarn</li>
                                     <li>After yarn install, give <span className='text-red-500 text-[20px]'>yarn</span> command, press enter, for intall necessary modules and package</li>

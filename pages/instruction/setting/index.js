@@ -43,7 +43,7 @@ const Setting = () => {
                     <div className='m-4'>
                         <p>JWT means JSON Web Token.This token is used to secure your project.</p>
                         <ul className='list-disc'>
-                            <li>Here give a random number that only the super admin can know,Here give a random number which only super admin can know, you can generate key through this link <a href="http://www.sha1-online.com/" target='_blank'>Click here</a></li>
+                            <li>Here give a random number that only the super admin can know,Here give a random number which only super admin can know, you can generate key through this link <a href="http://www.sha1-online.com/" target='_blank' rel="noreferrer">Click here</a></li>
                             <li>Jwt Expire time:These tokens will be valid for a certain period of time, after which all users will have to login again. Ex: 1 hour, 5hour(A maximum of 24 hours should be given)</li>
                             <li>Jwt Expire in Remember me: Here also a specific time is used, but in this case much more time is given, likes 365 hours.</li>
                         </ul>
