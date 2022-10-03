@@ -8,7 +8,7 @@ const FIleFormAC = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>File From A/C Page</h5>
                     <div className='m-4'>
-                        <p>On this page, the user will see all his files in a table.</p>
+                        <p>The user will see his complete file on this page in the table. You can download your files from here. Again if any problem is shown in your file then you can take a review</p>
                         <img className='h-auto w-auto' src='/images/file1.png' alt="" />
                     </div>
                 </div>
