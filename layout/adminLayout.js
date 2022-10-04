@@ -44,6 +44,16 @@ const menu = [
                 href: '/instruction/install',
             },
             {
+                label: 'Backend Installation Process',
+                icon: MdRule,
+                href: '/instruction/backend',
+            },
+            {
+                label:'Frontend Installation Process',
+                icon: MdRule,
+                href: '/instruction/frontend',
+            },
+            {
                 label: 'Env File Setting',
                 icon: MdEditNote,
                 href: '/instruction/setting',
