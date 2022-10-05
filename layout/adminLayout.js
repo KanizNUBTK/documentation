@@ -49,7 +49,7 @@ const menu = [
                 href: '/instruction/backend',
             },
             {
-                label:'Frontend Installation Process',
+                label: 'Frontend Installation Process',
                 icon: MdRule,
                 href: '/instruction/frontend',
             },
@@ -103,7 +103,7 @@ const menu = [
                 label: 'Role And Permission',
                 icon: TiContacts,
                 href: '/admin/rolePermission',
-            },
+            },            
             {
                 label: 'Website Setting',
                 icon: TiContacts,
@@ -147,9 +147,14 @@ const menu = [
                 href: '/user/mytaxFile',
             },
             {
-                label: 'File Form A/C and Feedback',
+                label: 'File Form A/C ',
                 icon: TiContacts,
                 href: '/user/fileAC',
+            },
+            {
+                label: 'Feedback',
+                icon: TiContacts,
+                href: '/user/feebbackUS',
             },
         ]
     },

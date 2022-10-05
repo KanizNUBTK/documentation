@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import AdminLayout from '../../../layout/adminLayout';
 
@@ -40,8 +41,12 @@ const backend = () => {
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 5</p>
                             <p>Then you go to your server panel or cPanel, Select your<span className=' text-red-400'>Document Root </span> and right click on your mouse.</p>
                             <img className='h-auto w-auto my-4' src="/images/f9.png" alt="" />
-                            <p className='text-[20px] text-red-500 font-bold'>** Now you need to follow the backend installation process step 2 - step 8</p>
+                            <p className='text-[20px] text-red-500 font-bold'>** Now you need to follow the backend installation process Step 2 - Step 9</p>
                         </li>
+                        <p className='border-[1px] border-green-500 text-center p-2 text-green-500 font-semibold text-[24px]'>After successful completion of all the processes, your website will go live, visit your domain url, for example <span className='italic '>www.domain@something.com</span> </p>
+                        <p className='text-right'>
+                            <Link href={`mailto:support@appstick.com.bd`}><a className='lg:mr-6  hover:cursor-pointer font-[Montserrat]'>***** support@appstick.com.bd *****</a></Link>
+                        </p>
                     </ul>
                 </div>
             </div>

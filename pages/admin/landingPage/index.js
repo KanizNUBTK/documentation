@@ -1,94 +1,69 @@
 import React from 'react';
 import AdminLayout from '../../../layout/adminLayout';
+import { IoArrowvioletoSharp, IoMdSend, IoMdShareAlt } from 'react-icons/io';
+import Link from 'next/link';
 
 const LandingPage = () => {
     return (
         <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px]'>
-                <h4 className='text-center'>Website live page information</h4>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>Website bacis information</h5>
-                    <div className='m-4'>
-                        <p>First you need to go to the admin panel &gt; website setting &gt; site setting, then you will see seven buttons on the left side and on the right side there is a form.At first you can see website information.This form store compnay bacis information and the website domain name</p>
-                        <img className='h-auto w-auto' src="/images/site.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>Website home page information</h5>
-                    <div className='m-4'>
-                        <p>This form takes live website main page information, This information will be display on the home page in the live website</p>
-                        <img className='h-auto w-auto' src="/images/home.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>Website about page information</h5>
-                    <div className='m-4'>
-                        <p>This form takes your compnay information, This information will be display on the about page in the live website</p>
-                        <img className='h-auto w-auto' src="/images/about.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>Website tax situation page information</h5>
-                    <div className='m-4'>
-                        <p>This form takes the all user role information, This information will be display on the tax situation page in the live website</p>
-                        <img className='h-auto w-auto' src="/images/situation.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>Website SMTP Information</h5>
-                    <div className='m-4'>
-                        <p>This form takes the Simple Mail Transfer Protocol (SMTP) information.</p>
-                        <img className='h-auto w-auto' src="/images/smtp.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>Website SMS Information</h5>
-                    <div className='m-4'>
-                        <p>This form takes the twilo sms information.</p>
-                        <img className='h-auto w-auto' src="/images/sms.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>Website Environment Set Up </h5>
-                    <div className='m-4'>
-                        <p>This form takes the main environment set up information, This information stored in the .env file</p>
-                        <img className='h-auto w-auto' src="/images/env.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>FAQs</h5>
-                    <div className='m-4'>
-                        <p>At the top of the page, you will find the form to add questions and answers for your clients and at the bottom of the page all the questions and answers will be displayed, you can delete any row.
+            <div className='bg-gray-50 h-auto m-6 p-6 w-[90%] text-[18px]'>
+                <h4 className='text-center border-b-[1px] pb-2 border-black'>Website Introduction</h4>
+                <div className=' p-4'>
+                    <p>On this section you can see necessary information collection pages:</p>
+                    <div className='mx-20'>
+                        <p className='flex items-center gap-2 '>
+                            <span><IoMdSend /></span>
+                            <Link href='/admin/setting/feedBack/'><a className='border px-4 py-2 rounded text-violet-500   font-bold'>Student Feedbacks</a></Link>
                         </p>
-                        <img className='h-auto w-auto' src="/images/faq.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>More Pages</h5>
-                    <div className='m-4'>
-                        <p>On this page you can add an additional page for your website, where you can specify the menu or footer to display. You can also delete and update data
+                        <p className='flex items-center gap-2'>
+                            <span><IoMdSend /></span>
+                            <Link href='/admin/setting/queryPage/'><a  className='border px-4 py-2 rounded text-violet-500   font-bold'>Customer Contact</a></Link>
                         </p>
-                        <img className='h-auto w-auto' src="/images/more.png" alt="" />
-                        <p className='mt-4'>Admin can write any type of content through this draft board</p>
-                        <img className='h-auto w-auto' src="/images/draft.png" alt="" />
-                        
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'> Tax pricing</h5>
-                    <div className='m-4'>
-                        <p>On the TaxFile pricing page, you can add tax pricing depending on the user role, Stripe, Paypal,Razorpay,Mollie, You can take your payment through these 4 channels
+                        <p className='flex items-center gap-2'>
+                            <span><IoMdSend /></span>
+                            <Link href='/admin/setting/pricePage/'><a  className='border px-4 py-2 rounded text-violet-500   font-bold'>TaxFile Pricing</a></Link>
                         </p>
-                        <img className='h-auto w-auto' src="/images/tax.png" alt="" />
-                    </div>
-                </div>
-                <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black'>Query Pages</h5>
-                    <div className='m-4'>
-                        <p>
-                            If any viewer has any type of query, they have to email you, this email can store on this page of your admin panel, the admin can view and reply to the email and also can delete this
+                        <p className='flex items-center gap-2'>
+                            <span><IoMdSend /></span>
+                            <Link href='/admin/setting/morePage/'><a  className='border px-4 py-2 rounded text-violet-500   font-bold'>FrontEnd Pages</a></Link>
                         </p>
-                        <img className='h-auto w-auto' src="/images/query.png" alt="" />
+                        <p className='flex items-center gap-2'>
+                            <span><IoMdSend /></span>
+                            <Link href='/admin/setting/faqPage/'><a  className='border px-4 py-2 rounded text-violet-500   font-bold'>FAQ Setting</a></Link>
+                        </p>
+                        <p className='flex items-center gap-2'>
+                            <span><IoMdSend /></span>Site Setting
+                        </p >
+                        <div className='mx-10'>
+                            <p className='flex items-center gap-2'>
+                                <span><IoMdShareAlt /></span>
+                                <Link href='/admin/setting/info/'><a  className='border px-4 py-2 rounded  text-rose-500   font-bold'>Website Information</a></Link>
+                            </p >
+                            <p className='flex items-center gap-2'>
+                                <span><IoMdShareAlt /></span>
+                                <Link href='/admin/setting/homePage/'><a  className='border px-4 py-2 rounded  text-rose-500   font-bold'>Manage Home Page</a></Link>
+                            </p >
+                            <p className='flex items-center gap-2'>
+                                <span><IoMdShareAlt /></span>
+                                <Link href='/admin/setting/about/'><a  className='border px-4 py-2 rounded text-rose-500  font-bold'>Manage About Page</a></Link>
+                            </p >
+                            <p className='flex items-center gap-2'>
+                                <span><IoMdShareAlt /></span>
+                                <Link href='/admin/setting/beneficiaryPage/'><a  className='border px-4 py-2 rounded  text-rose-500   font-bold'>Manage Tax Beneficiary</a></Link>
+                            </p >
+                            <p className='flex items-center gap-2'>
+                                <span><IoMdShareAlt /></span> 
+                                <Link href='/admin/setting/smtpPage/'><a  className='border px-4 py-2 rounded  text-rose-500  font-bold'>Manage SMTP Setting</a></Link>
+                            </p >
+                            <p className='flex items-center gap-2'>
+                                <span><IoMdShareAlt /></span>
+                                <Link href='/admin/setting/smsPage/'><a  className='border px-4 py-2 rounded  text-rose-500   font-bold'>Manage SMS Setting</a></Link>
+                            </p >
+                            <p className='flex items-center gap-2'>
+                                <span><IoMdShareAlt /></span>
+                                <Link href='/admin/setting/envPage/'><a  className='border px-4 py-2 rounded  text-rose-500   font-bold'>Environment Setting</a></Link>
+                            </p >
+                        </div>
                     </div>
                 </div>
             </div>
