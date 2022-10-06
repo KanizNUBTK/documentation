@@ -1,11 +1,8 @@
 import {
     MdDashboard, MdEditNote, MdRule,
     MdOutlineCenterFocusStrong, MdAccountCircle, MdPowerSettingsNew, MdLocationOn,
-    MdCode, MdAnnouncement, MdSettings, MdInsertChart, MdFeedback
+    MdCode, MdAnnouncement, MdSettings, MdInsertChart, MdFeedback,MdOutlineSupportAgent
 } from "react-icons/md";
-import { AiFillDollarCircle } from "react-icons/ai";
-import { RiPagesFill } from "react-icons/ri";
-import { FaQuestionCircle, FaTools } from "react-icons/fa";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
 import { TiContacts } from "react-icons/ti";
@@ -188,6 +185,11 @@ const menu = [
                 href: '/live/more',
             },
         ]
+    },
+    {
+        label: 'Help and Support',
+        icon: MdOutlineSupportAgent,
+        href: '/help',
     },
 ]
 
