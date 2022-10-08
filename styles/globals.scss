@@ -12,3 +12,7 @@
 .font_family {
   font-family: 'Poppins', sans-serif;
 }
+
+.scene {
+  transform: perspective(1000px) rotateY(-30deg);
+}

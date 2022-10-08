@@ -1,11 +1,10 @@
 import {
-    MdDashboard, MdEditNote, MdRule,
-    MdOutlineCenterFocusStrong, MdAccountCircle, MdPowerSettingsNew, MdLocationOn,
-    MdCode, MdAnnouncement, MdSettings, MdInsertChart, MdFeedback,MdOutlineSupportAgent
+    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
 import { TiContacts } from "react-icons/ti";
+import { CgMediaLive } from "react-icons/cg";
 
 
 const AdminLayout = ({ children }) => {
@@ -59,7 +58,7 @@ const menu = [
     },
     {
         label: 'Admin Panel',
-        icon: MdSettings,
+        icon: MdAdminPanelSettings,
         child: [
             {
                 label: 'Admin Login',
@@ -100,7 +99,7 @@ const menu = [
                 label: 'Role And Permission',
                 icon: TiContacts,
                 href: '/admin/rolePermission',
-            },            
+            },
             {
                 label: 'Website Setting',
                 icon: TiContacts,
@@ -110,7 +109,7 @@ const menu = [
     },
     {
         label: 'Accountant Panel',
-        icon: MdSettings,
+        icon: MdSupervisorAccount,
         child: [
             {
                 label: 'Accountant Login',
@@ -126,7 +125,7 @@ const menu = [
     },
     {
         label: 'User Panel',
-        icon: MdSettings,
+        icon: MdSupervisedUserCircle,
         child: [
             {
                 label: 'User Login',
@@ -157,7 +156,7 @@ const menu = [
     },
     {
         label: 'Live Pages',
-        icon: MdSettings,
+        icon: CgMediaLive,
         child: [
             {
                 label: 'Home Page',
@@ -185,6 +184,11 @@ const menu = [
                 href: '/live/more',
             },
         ]
+    },
+    {
+        label: 'Tawk to',
+        icon: MdPhoneInTalk,
+        href: '/tawkTo',
     },
     {
         label: 'Help and Support',
