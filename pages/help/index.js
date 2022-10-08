@@ -18,7 +18,7 @@ const HelpPage = () => {
                     <p className=' cursor-pointer text-[18px] p-3 w-[40%] bg-blue-500 rounded-lg'><Link href={`https://www.facebook.com/appstick.com.bd`}><a className='flex items-center gap-2 text-white'><span><BsFacebook size={35} /></span> Chat on Facebook</a></Link></p>
                     <p className=' cursor-pointer text-[18px] p-3 w-[40%] bg-[#FF0000] rounded-lg'><Link href={`https://www.youtube.com/channel/UC3FOvh2oLyTOb3jTjJafBFw`}><a className='flex items-center gap-2 text-white'><span><BsYoutube size={35} /></span> Our Youtube Channel</a></Link></p>
                 </div>
-                <div className='bg-[#f3f6fe] flex items-center drop-shadow-lg'>
+                <div className='bg-[#f3f6fe] flex items-center drop-shadow-lg h-[600px] w-full'>
                     <img className='scene rounded drop-shadow-lg' src="/images/appstick.jpg" alt="" />
                 </div>
             </div>

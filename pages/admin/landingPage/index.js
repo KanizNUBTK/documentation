@@ -25,7 +25,7 @@ const LandingPage = () => {
                         </p>
                         <p className='flex items-center gap-2'>
                             <span><IoMdSend /></span>
-                            <Link href='/admin/setting/morePage/'><a  className='border px-4 py-2 rounded text-violet-500   font-bold'>FrontEnd Pages</a></Link>
+                            <Link href='/admin/setting/morePage/'><a  className='border px-4 py-2 rounded text-violet-500   font-bold'>Frontend More Pages</a></Link>
                         </p>
                         <p className='flex items-center gap-2'>
                             <span><IoMdSend /></span>
