@@ -30,6 +30,7 @@ const Install = () => {
                                     <Link href='/instruction/frontend'><a className='text-white text-lg font-bold'>Frontend Installing Process</a></Link>
                                 </div>
                             </div>
+                            <p className='text-right text-red-500 font-medium m-6'>***If you face any kind of installation problem, contact our support***</p>
                         </ul>
                     </div>
                 </div>
