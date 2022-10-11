@@ -69,8 +69,8 @@ const backend = () => {
                         Then click the pointed button,
                             <ul className='list-disc'>
                                 <li>to select your folder path,</li>
-                                <li> fill up the Name,</li>
-                                <li>do not give line space in the name,</li>
+                                <li> fill up the Name,(do not give line space in the name, use underscore)</li>
+                                <li>Select Run opt,</li>
                                 <li>select the port,</li>
                                 <li>select node version, </li>
                                 <li>and give your domain name</li>
@@ -86,7 +86,7 @@ const backend = () => {
                         <li className='my-4'> 
                         <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 14</p>
                         Then Click SSL, then select two checkboxes and apply them
-                            <img className='h-[500px] w-auto mt-4' src="/images/b13.png" alt="" />
+                            <img className='h-auto w-auto mt-4' src="/images/b15.png" alt="" />
                         </li>
                         <li className='my-4'>
                         <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 15</p>
