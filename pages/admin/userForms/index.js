@@ -34,7 +34,7 @@ const UserFormsFields = () => {
                         <p className='inline'>In the description above, I mentioned this list of form fields earlier, with this list, we initially gave a general list of any type of data collection field that a form can contain. Now you will see 30 common form fields, which are commonly used. If these fields apply to your data collection, you can use them, or create additional fields . Note that if you delete a field from now on, that field will be deleted from all roles.</p>
                         <img className='h-auto w-auto my-2' src="/images/viewFormfield.png" alt="" />
                         <div className='bg-red-500  rounded p-4'>
-                            <h5 className='inline text-white'>We have provided some common form feild data, this data needs to be placed in the database before following the next step. </h5>
+                            <h5 className='inline text-white'>We have provided some common form field data, this data needs to be placed in the database before following the next step. </h5>
                             <p className='inline text-white border-2 border-white rounded px-4 py-2 cursor-pointer' onClick={handleRouteChange}>
                                 Click Here</p>
                         </div>
