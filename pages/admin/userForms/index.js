@@ -1,7 +1,17 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import AdminLayout from '../../../layout/adminLayout';
 
-const userFormsFields = () => {
+const UserFormsFields = () => {
+    const router = useRouter();
+
+    const handleRouteChange = () => {
+        router.push('userForms/commonField/')
+    }
+    const handleTermsRouteChange = () => {
+        router.push('userForms/termCon/')
+    }
+
     return (
         <AdminLayout>
             <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-4'>
@@ -20,9 +30,14 @@ const userFormsFields = () => {
                         <img className='h-auto w-auto my-2' src="/images/userForm.png" alt="" />
                     </li>
                     <li className='my-4'>
-                        <h5 className='inline'>View Forms Feilds button : </h5>
+                        <h5 className='inline'>View Common Forms Feilds button : </h5>
                         <p className='inline'>In the description above, I mentioned this list of form fields earlier, with this list, we initially gave a general list of any type of data collection field that a form can contain. Now you will see 30 common form fields, which are commonly used. If these fields apply to your data collection, you can use them, or create additional fields . Note that if you delete a field from now on, that field will be deleted from all roles.</p>
                         <img className='h-auto w-auto my-2' src="/images/viewFormfield.png" alt="" />
+                        <div className='bg-red-500  rounded p-4'>
+                            <h5 className='inline text-white'>We have provided some simple data to help the user, this data needs to be placed in the database before following the next step. </h5>
+                            <p className='inline text-white border-2 border-white rounded px-4 py-2 cursor-pointer' onClick={handleRouteChange}>
+                                Click Here</p>
+                        </div>
                     </li>
                     <li className='my-4'>
                         <h5 className='inline'>Add New feilds : </h5>
@@ -54,13 +69,13 @@ const userFormsFields = () => {
                                             <li>Digital Signature : It collects degital hand writing signature</li>
                                             <li>Select :It collects multiple data sets for a particular field.
                                                 <div className='md:grid md:grid-cols-2'>
-                                                <img className='h-auto w-auto m-2' src="/images/select1.png" alt="" />
-                                                <img className='h-auto w-auto m-2' src="/images/select2.png" alt="" />
+                                                    <img className='h-auto w-auto m-2' src="/images/select1.png" alt="" />
+                                                    <img className='h-auto w-auto m-2' src="/images/select2.png" alt="" />
                                                 </div>
                                             </li>
                                             <li>Radio Button: It is similar to Select, only the data has to be selected with a radio button click</li>
                                             <li>Checkbox : Additional links can be added within this field
-                                            <img className='h-auto w-auto m-2' src="/images/checkbox.png" alt="" />
+                                                <img className='h-auto w-auto m-2' src="/images/checkbox.png" alt="" />
                                             </li>
                                         </ul>
                                     </li>
@@ -82,7 +97,12 @@ const userFormsFields = () => {
                                 <img className='h-auto w-auto m-2' src="/images/action.png" alt="" />
                             </li>
                         </ul>
-
+                    </li>
+                    <li className='my-4'>
+                        <h5 className='inline'>Terms and Conditions : </h5>
+                        <p className='inline'>If you want to add terms and condition option to your userform, please Follow the process</p>
+                        <p className='inline text-red-600 mx-4 border-2 border-red-500 rounded px-4 py-2 cursor-pointer font-bold' onClick={handleTermsRouteChange}>
+                            Click Here</p>
                     </li>
                 </ul>
             </div>
@@ -90,4 +110,4 @@ const userFormsFields = () => {
     );
 };
 
-export default userFormsFields;
+export default UserFormsFields;
