@@ -4,7 +4,7 @@ import AdminLayout from '../../../layout/adminLayout';
 const AllTaxFiles = () => {
     return (
         <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px]'>
+            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-4'>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Admin All tax File</h5>
                     <p>On this page the admin can see the tax files of all the clients given to him, he can appoint the accountant as he wants, download the necessary documents.</p>
@@ -12,8 +12,8 @@ const AllTaxFiles = () => {
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Admin All tax File <span className='text-red-500'> Action Button</span></h5>
-                    <p>On the action button, you can see pdf,excel download button, delete buton, view details button, contact in whatsapp button</p>
-                    <img className='h-auto w-auto' src="/images/allfiles1.PNG" alt="" />
+                    <p>In action column, you can see PDF, Excel download button, delete button, view details button and contact user with <span className='text-red-500 italic font-medium'>WhatsApp</span> button.</p>
+                    <img className='h-auto w-auto mx-auto' src="/images/allfiles1.PNG" alt="" />
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>File Details</h5>
