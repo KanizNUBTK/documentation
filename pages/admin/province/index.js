@@ -4,7 +4,7 @@ import AdminLayout from '../../../layout/adminLayout';
 const Province = () => {
     return (
         <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px]'>
+            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-4'>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Province Page</h5>
                     <p>On this page, the admin can view tax information according to his province, he will get detail, edit, and delete options.</p>

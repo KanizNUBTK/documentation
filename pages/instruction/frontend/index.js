@@ -19,7 +19,7 @@ const backend = () => {
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 2</p>
                             Then you need to find the <span className=' text-red-400'> next.config.js</span> file and open it in your appropriate text editor.
                             <img className='h-[500px] w-auto my-4' src="/images/f2.png" alt="" />
-                            <p>Because you need to change the necessary information of your websites such as <span className=' text-red-400'>domain_name, BACKEND URL, and user_login mode</span> , in this case, you must be provided your personal backend domain or dub domain URL and save</p>
+                            <p>Because you need to change the necessary information of your websites such as <span className=' text-red-400'>BACKEND URL, the text is underlined in the image below</span> , in this case, you must be provided your personal backend domain or dub domain URL and save</p>
                             <img className='h-[500px] w-auto mt-4' src="/images/f3.png" alt="" />
                         </li>
                         <li className='my-4'>
