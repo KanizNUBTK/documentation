@@ -10,7 +10,7 @@ const index = () => {
                     <h5 className='border-b-[1px] border-black'>Step 1</h5>
                     <div className='m-4'>
                         <p>User must first select the year to submit his tax file</p>
-                        <img className='h-96' src='/images/usForm1.png' alt="" />
+                        <img className='h-auto w-auto' src='/images/usForm1.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
@@ -32,6 +32,10 @@ const index = () => {
                     <div className='m-4'>
                         <p>Then the user can see his total payment information, after payment is complete, your file submit to the admin</p>
                         <img className='h-auto w-auto' src='/images/pay.png' alt="" />
+                    </div>
+                    <div className='m-4'>
+                        <p>Admin can activate any payment method as per his convenience and the user will make payment using the activated payment system</p>
+                        <img className='h-auto w-auto' src='/images/pay1.png' alt="" />
                     </div>
                 </div>
             </div>

@@ -1,10 +1,11 @@
 import {
-    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk
+    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk,MdPassword,
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
 import { TiContacts } from "react-icons/ti";
 import { CgMediaLive } from "react-icons/cg";
+import { FcWorkflow } from "react-icons/fc";
 
 
 const AdminLayout = ({ children }) => {
@@ -189,6 +190,16 @@ const menu = [
         label: 'Tawk to',
         icon: MdPhoneInTalk,
         href: '/tawkTo',
+    },
+    {
+        label: 'Work Flow',
+        icon: FcWorkflow,
+        href: '/flow',
+    },
+    {
+        label: 'Password Reset',
+        icon: MdPassword,
+        href: '/password',
     },
     {
         label: 'Help and Support',
