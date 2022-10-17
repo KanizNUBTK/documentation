@@ -18,7 +18,7 @@ const WorkFlow = () => {
                     <img className='h-auto w-auto' src="/images/flow1.png" alt="" />
                     <p className='mt-4'>And the user can also see his steps if he wants</p>
                     <img className='h-auto w-auto' src="/images/submission1.png" alt="" />
-                    <p className='shadow p-4 text-bold m-2'>If the administrator wants, the user can hand over his file to the accountant before completing his payment.</p>
+                    <p className='shadow p-4 text-bold m-2'>If the admin wants, he can hand over his file to the accountant before completing his payment.</p>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Flow 2</h5>
