@@ -16,7 +16,7 @@ const CommonField = () => {
         <AdminLayout>
             <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-4'>
                 <p onClick={handleRouteChange} className='flex items-center gap-2 cursor-pointer text-red-600'><span className='mt-1'><BsArrowReturnLeft /></span> Back</p>
-                <h5 className='border-b-[1px] border-black text-center p-2 text-[20px]'>Common Feilds Data Insert Process</h5>
+                <h5 className='border-b-[1px] border-black text-center p-2 text-[20px]'>Common Fields Data Insert Process</h5>
                 <ul className='list-disc'>
                     <li className='my-4'>
                         <p >At first go to your MongoDB database account.Select <span className='font-bold text-red-600'>Browse Collections</span> </p>

@@ -5,7 +5,7 @@ import AdminLayout from '../../../layout/adminLayout';
 const Setting = () => {
     return (
         <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px]'>
+            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-4'>
                 <h4 className='text-center'>Env File Setup Information</h4>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>.env File Setup Information</h5>
@@ -47,7 +47,9 @@ const Setting = () => {
                         <p>JWT means JSON Web Token.This token is used to secure your project.</p>
                         <ul className='list-disc'>
                             <li>Here give a random number that only the super admin can know,Here give a random number which only super admin can know, you can generate key through this link <a href="http://www.sha1-online.com/" target='_blank' rel="noreferrer">Click here</a></li>
-                            <li>Jwt Expire time:These tokens will be valid for a certain period of time, after which all users will have to login again. Ex: 1 hour, 5hour(A maximum of 24 hours should be given)</li>
+                            <li>Jwt Expire time:These tokens will be valid for a certain period of time, after which all users will have to login again. Ex: 1h, 5h (A maximum of 24h should be given)
+                                <span className='text-red-500 font-bold'>, and you should write like this,1h/5h/24h .</span>
+                            </li>
                             <li>Jwt Expire in Remember me: Here also a specific time is used, but in this case much more time is given, likes 365 hours.</li>
                         </ul>
                         <img className='h-auto w-auto' src="/images/s3.png" alt="" />
@@ -59,6 +61,27 @@ const Setting = () => {
                         <p>AWS means Amazon Web Services.<Link href='https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html'>Click Here for proper guide line</Link></p>
                         <img className='h-auto w-auto' src="/images/s4.png" alt="" />
                     </div>
+                </div>
+                <div className='my-4 shadow p-4'>
+                    <p className='text-red-500 font-semibold'>After filling out the settings form you have to restart the server.</p>
+                </div>
+                <div className='my-4'>
+                    <h5 className='border-b-[1px] border-black capitalize'>Server Restart</h5>
+                    <div className='m-4'>
+                        <p>Go to your cPanel or server panel, Click your backend folder</p>
+                        <img className='h-auto w-auto' src="/images/restart1.png" alt="" />
+                    </div>
+                    <div className='m-4'>
+                        <p>Then you can get this kind of pop up, follow the instructions in the picture.</p>
+                        <img className='h-auto w-auto' src="/images/restart2.png" alt="" />
+                    </div>
+                    <div className='m-4'>
+                        <p>Then click on the Restart button.</p>
+                        <img className='h-auto w-auto' src="/images/restart3.png" alt="" />
+                    </div>
+                    <div className='my-4 shadow p-4'>
+                    <p className='text-red-500 font-semibold mb-0'>Then go to your website and reload this page. Then you can see your front page.</p>
+                </div>
                 </div>
             </div>
         </AdminLayout>

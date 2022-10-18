@@ -6,6 +6,7 @@ import Header from "../components/dashboard/header.js";
 import { TiContacts } from "react-icons/ti";
 import { CgMediaLive } from "react-icons/cg";
 import { FcWorkflow } from "react-icons/fc";
+import { TiFlowMerge } from "react-icons/ti";
 
 
 const AdminLayout = ({ children }) => {
@@ -194,7 +195,18 @@ const menu = [
     {
         label: 'Work Flow',
         icon: FcWorkflow,
-        href: '/flow',
+        child: [
+            {
+                label: 'Website Run Time Work Flow',
+                icon: TiFlowMerge,
+                href: '/flow/run/',
+            },
+            {
+                label: 'Tax Filing Work Flow',
+                icon: TiFlowMerge,
+                href: '/flow/file/',
+            },    
+        ]
     },
     {
         label: 'Password Reset',

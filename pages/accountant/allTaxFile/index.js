@@ -15,7 +15,8 @@ const AcAllFiles = () => {
                             <li><span className='font-bold text-red-500'>Details button in action column: </span>view the file information specifically,</li>
                             <li><span className='font-bold text-red-500'>Email: </span> Accountant can email users for any need,
                                 <img className='w-auto h-[300px] my-2' src="/images/scEmail.png" alt="" /></li>
-                            <li><span className='font-bold text-red-500'>Send File: </span>After completing his work, the accountant will submit the user file using the send file option. When he sends the file to the user, the administrator, user, and accountant will also receive a submission email.</li>
+                            <li><span className='font-bold text-red-500'>Send File: </span>After completing his work, the accountant will submit the user file using the send file option. When he sends the file to the user, the administrator, user, and accountant will also receive a submission email.
+                            <img className='w-auto h-auto border' src="/images/sent.png" alt="" /></li>
                             <li><span className='font-bold text-red-500'>Status:</span>An accountant can change the file status or view the file review status.
                                 <div className='md:flex justify-around items-center flex-wrap gap-2'>
                                     <img className='w-auto h-auto border' src="/images/status1.png" alt="" />

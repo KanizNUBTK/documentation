@@ -16,7 +16,7 @@ const SMTPPage = () => {
                     <img className='h-auto w-auto' src="/images/smtp.png" alt="" />
                 </div>
                 <div className='m-4'>
-                    <p><span className='font-bold text-red-500 text-[18px]'>Email Option 2:</span> This option is enabled by default.</p>
+                    <p><span className='font-bold text-red-500 text-[18px]'>Email Option 2:</span> This option is enabled by default.If you use Gmail, You can get this data in the Gmail service.</p>
                     <img className='h-auto w-auto' src="/images/email2.png" alt="" />
                 </div>
                 <div className='m-4'>
