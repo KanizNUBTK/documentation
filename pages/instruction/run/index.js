@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
 import AdminLayout from '../../../layout/adminLayout';
@@ -9,8 +10,8 @@ const WebsiteRun = () => {
         router.push('/admin/userForms/commonField/')
     }
 
-    const handleTermsRouteChange = () => {
-        router.push('/admin/userForms/termCon/')
+    const handleHelpRoute = async () => {
+        await router.push('/help/')
     }
 
     return (
@@ -64,7 +65,7 @@ const WebsiteRun = () => {
                     <p >And lastly, you can add accountants and users as per your wish using signup.</p>
                     <img className='h-[500px] w-auto mx-auto' src='/images/signup.png' alt="" />
                 </div>
-                <p className='p-4 shadow text-center text-red-500 font-bold'>If you complete the entire procedure correctly, your website will be up and running . <br />If you face any problem we will provide free <a href="/help/" target="_blank" className='text-red-600'>Support</a>  .</p>
+                <p className='p-4 shadow text-center text-red-500 font-bold'>If you complete the entire procedure correctly, your website will be up and running . <br />If you face any problem we will provide free <span onClick={handleHelpRoute} className='text-red-600'>Support</span>  .</p>
             </div>
         </AdminLayout>
     );

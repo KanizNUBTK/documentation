@@ -21,7 +21,7 @@ const TawkTo = () => {
                     <div className='m-4'>
                         <p>To enable this chatting system you have to register in tawk.to.</p>
                         <ul className='list-disc'>
-                            <li>Here is the register link: <a href={`https://dashboard.tawk.to/signup `} className='cursor-pointer text-red-500 font-bold' target='_blank'> tawk.to</a></li>
+                            <li>Here is the register link: <Link href={`https://dashboard.tawk.to/signup `}><a className='cursor-pointer text-red-500 font-bold' target='_blank' rel="noreferrer"> tawk.to</a></Link></li>
                             <li>After completing the sign up process you will get the dashboard like below one.</li>
                             <li>Then follow the instructions in picture.
                                 <img className='h-auto w-auto mx-auto' src="/images/tawk4.png" alt="" />

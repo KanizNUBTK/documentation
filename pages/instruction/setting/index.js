@@ -26,7 +26,7 @@ const Setting = () => {
                     <div className='m-4 '>
                         <div>Next, you have to setup the database. Here, we are suggesting to create a MongoDB database in MongoDB Atlas. Also, you can create database on your server too. Now follow the below steps.
                             <ul className='list-disc'>
-                                <li>At first, you have to create a MongoDB Atlas account. <a href="https://www.mongodb.com/atlas/database" target="_blank" >Click here</a> to create account.You can choose any plan, also you can choose <span className='text-red-500'>free shared</span> plan too.
+                                <li>At first, you have to create a MongoDB Atlas account. <Link href="https://www.mongodb.com/atlas/database"><a >Click here</a></Link> to create account.You can choose any plan, also you can choose <span className='text-red-500'>free shared</span> plan too.
                                 </li>
                                 <li className='my-4'>Now you can see of your mondoDB account dashboard. You have to create <span className='text-red-500 capitalize'>network access</span>. We recommend to put your server IP address to maintain the security. Also you can set it public access, which is not recommended.
                                     <img className='h-auto w-auto my-4' src="/images/altas2.png" alt="" />
@@ -54,7 +54,7 @@ const Setting = () => {
                     <div className='m-4'>
                         <p>JWT means JSON Web Token. This token is used to secure your website.</p>
                         <ul className='list-disc'>
-                            <li>First of all you have to fill JWT secret key. You can generate the secret key from <a href="http://www.sha1-online.com/" target='_blank' rel="noreferrer">here</a>. Now you have to put any value to generate the secret key(hash value). Now copy the secret value and paste it in JWT secret key field.</li>
+                            <li>First of all you have to fill JWT secret key. You can generate the secret key from <Link href="http://www.sha1-online.com/"><a target='_blank' rel="opener" >here</a></Link>. Now you have to put any value to generate the secret key(hash value). Now copy the secret value and paste it in JWT secret key field.</li>
                             <li>Jwt Expire time: Now you have to set JWT expire time  like 1h or 5h (A maximum of 24h should be given).
                             </li>
                             <li>Jwt Expire in Remember me option: In the case of log in section if you want to activate the remember me option just put expire time like 365h.</li>
@@ -65,7 +65,7 @@ const Setting = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>AWS Bucket Information</h5>
                     <div className='m-4'>
-                        <p>Please fill out proper AWS bucket information. <a href='https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html' target='_blank'>Click Here for proper instructions</a></p>
+                        <p>Please fill out proper AWS bucket information. <Link href='https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html'><a target='_blank' rel="opener" >Click Here for proper instructions</a></Link></p>
                         <img className='h-auto w-auto' src="/images/s4.png" alt="" />
                     </div>
                 </div>
