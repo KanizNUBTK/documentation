@@ -16,14 +16,14 @@ const taxSituationPage = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>Role wise information</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see role wise some informations.</p>
+                        <p>In this section, anyone can see role wise information.</p>
                         <img className='h-auto w-auto' src='/images/t2.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>file processing information</h5>
+                    <h5 className='border-b-[1px] border-black capitalize'>File processing information</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see some information about the working process in the tax filing,this seaction is also dynamic.</p>
+                        <p>In this section, anyone can see information about the working process of tax filing. This section is also dynamic.</p>
                         <img className='h-auto w-auto' src='/images/t3.png' alt="" />
                     </div>
                 </div>

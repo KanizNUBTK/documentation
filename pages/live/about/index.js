@@ -9,42 +9,42 @@ const AboutPage = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>header</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see simple text.</p>
+                        <p>In this section, anyone can see simple text</p>
                         <img className='h-auto w-auto' src='/images/a1.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>About Compnay</h5>
+                    <h5 className='border-b-[1px] border-black capitalize'>About Company</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see some text of about the company and a photo,this seaction is also dynamic</p>
+                        <p>In this dynamic section, anyone can see some text of about the company and a photo</p>
                         <img className='h-auto w-auto' src='/images/a2.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>Company Goal</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see some text of goal of the company and a photo,this seaction is also dynamic</p>
+                        <p>In this section, anyone can see some text of goal of the company with a photo, this section is also dynamic</p>
                         <img className='h-auto w-auto' src='/images/a3.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>Our Executive Team</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see the company executive information and photo,this seaction is also dynamic</p>
+                        <p>In this dynamic section, visitor can see the company executive information and photo</p>
                         <img className='h-auto w-auto' src='/images/a4.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>Our  Accounting Affiliates</h5>
+                    <h5 className='border-b-[1px] border-black capitalize'>Our Accounting Affiliates</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see the company accounting affiliates information and photo,this seaction is also dynamic</p>
+                        <p>In this section, visitor can see the company accounting affiliates information with a photo, this section is also dynamic</p>
                         <img className='h-auto w-auto' src='/images/a5.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>Compnay Portfolio</h5>
+                    <h5 className='border-b-[1px] border-black capitalize'>Company Portfolio</h5>
                     <div className='m-4'>
-                        <p>In this section, anyone can see the company portfolio photos,this seaction is also dynamic</p>
+                        <p>In this dynamic section, anyone can see the company portfolio photos</p>
                         <img className='h-auto w-auto' src='/images/a5.png' alt="" />
                     </div>
                 </div>
