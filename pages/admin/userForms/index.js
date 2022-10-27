@@ -15,7 +15,7 @@ const UserFormsFields = () => {
     return (
         <AdminLayout>
             <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-4'>
-                <h5 className='border-b-[1px] border-black text-center p-2 text-[20px]'>User Forms Feilds</h5>
+                <h5 className='border-b-[1px] border-black text-center p-2 text-[20px]'>User Forms Fields</h5>
                 <p>We have provided our users with a complete dynamic form system. Dynamic form field means any admin can add/delete any type of form field required for his work. But for this application, this system is used to manage user form data collection fields. Because we have given complete freedom to the admin to create his user roles because the admin will define the user roles as per his requirement, in the case of role-based data collection, he will need different form fields. However, for the convenience of the admin, we have added some common form fields by default, which can be viewed by clicking on <span className='text-red-500 font-bold italic '>view common fields </span> button. However, for information collected from the mentioned user, we have arranged 3 steps, the first and second step is information, for which the frame field has to be determined from here, third or last step includes payment.</p>
                 <p className='text-[18px] font-medium'>Below is the description of the working process for the complete section :</p>
                 <ul className='list-disc'>
