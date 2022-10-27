@@ -10,47 +10,54 @@ const Setting = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>.env File Setup Information</h5>
                     <div className='m-4'>
-                        <p>After running the project, first, you will see a form, this form will collect information for the main backend .env file .</p>
+                        <p>Now hit your domain on browser like, <span className='text-red-500 font-bold'>your_main_domain.com</span> first, the following page will be appeared. Now follow the below steps.</p>
                         <img className='h-auto w-auto' src="/images/setting.png" alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>Super Admin data collection</h5>
+                    <h5 className='border-b-[1px] border-black capitalize'>Super Admin creation</h5>
                     <div className='m-4'>
-                        <p>In this section, the super admin or company owner will provide the basic information required to login into his website.</p>
+                        <p>In this section, the super admin or company owner has to provide the basic information like username, email, phone number and password to activate the website.</p>
                         <img className='h-auto w-auto' src="/images/s1.png" alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
-                    <h5 className='border-b-[1px] border-black capitalize'>Database information</h5>
+                    <h5 className='border-b-[1px] border-black capitalize'>Database setup</h5>
                     <div className='m-4 '>
-                        <p>Through this section, the name of the database and the name of the website will be collected. To store data you have to use the MongoDB database.
+                        <div>Next, you have to setup the database. Here, we are suggesting to create a MongoDB database in MongoDB Atlas. Also, you can create database on your server too. Now follow the below steps.
                             <ul className='list-disc'>
-                                <li>At first, you have to open a MongoDB atlas account,<Link href="https://www.mongodb.com/atlas/database" >MongoDB database link</Link> 
-                                <img className='h-auto w-auto' src="/images/s6.png" alt="" /></li>
-                                <li>then you can open a collection,
-                                <img className='h-auto w-auto' src="/images/s7.png" alt="" />
+                                <li>At first, you have to create a MongoDB Atlas account. <a href="https://www.mongodb.com/atlas/database" target="_blank" >Click here</a> to create account.You can choose any plan, also you can choose <span className='text-red-500'>free shared</span> plan too.
                                 </li>
-                                <li> then you can get a collection URL,in this URL, you have to give your database username and password.
-                                    <img className='h-auto w-auto' src="/images/s5.png" alt="" />
+                                <li className='my-4'>Now you can see of your mondoDB account dashboard. You have to create <span className='text-red-500 capitalize'>network access</span>. We recommend to put your server IP address to maintain the security. Also you can set it public access, which is not recommended.
+                                    <img className='h-auto w-auto my-4' src="/images/altas2.png" alt="" />
                                 </li>
-                                <li> then you will get a collection URL that will be ready to use as a database string,
-                                    After that, the URL can be placed in the input below</li>
+                                <li className='my-4'>Now you have to click <span className='text-red-500'>Database Access</span> to create new database user. You can simply put username and password to create database user. Please remember the username and password.
+                                    <img className='h-auto w-auto my-4' src="/images/altas1.png" alt="" />
+                                </li>
+                                <li className='my-4'>Now click on <span className='text-red-500'>Database</span>. Next click on <span className='text-red-500'>Connect</span>
+                                    <img className='h-auto w-auto my-4' src="/images/s6.png" alt="" /></li>
+
+                                <li className='my-4'>Next click on <span className='text-red-500'>Connect using MongoDB Compass.</span>
+                                    <img className='h-auto w-auto my-4' src="/images/s7.png" alt="" />
+                                </li>
+                                <li>You will get a collection URL like below, you have to give the database username and password that you previously created in <span className='text-red-500'>Database Access step.</span>
+                                    <img className='h-auto w-auto my-4' src="/images/s5.png" alt="" />
+                                </li>
+                                <li>Right now, Your Database creation process is done. Just copy the URL from your mongoDB atlas account like the upper image. Now you have to paste the URL in <span className='text-red-500'>Database String</span> field. Also you have to put company website name like taxstick.</li>
+                        <img className='h-auto w-auto my-2' src="/images/s2.png" alt="" />
                             </ul>
-                        </p>
-                        <img className='h-auto w-auto' src="/images/s2.png" alt="" />
+                        </div>
                     </div>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>JWT Information</h5>
                     <div className='m-4'>
-                        <p>JWT means JSON Web Token.This token is used to secure your project.</p>
+                        <p>JWT means JSON Web Token. This token is used to secure your website.</p>
                         <ul className='list-disc'>
-                            <li>Here give a random number that only the super admin can know,Here give a random number which only super admin can know, you can generate key through this link <a href="http://www.sha1-online.com/" target='_blank' rel="noreferrer">Click here</a></li>
-                            <li>Jwt Expire time:These tokens will be valid for a certain period of time, after which all users will have to login again. Ex: 1h, 5h (A maximum of 24h should be given)
-                                <span className='text-red-500 font-bold'>, and you should write like this,1h/5h/24h .</span>
+                            <li>First of all you have to fill JWT secret key. You can generate the secret key from <a href="http://www.sha1-online.com/" target='_blank' rel="noreferrer">here</a>. Now you have to put any value to generate the secret key(hash value). Now copy the secret value and paste it in JWT secret key field.</li>
+                            <li>Jwt Expire time: Now you have to set JWT expire time  like 1h or 5h (A maximum of 24h should be given).
                             </li>
-                            <li>Jwt Expire in Remember me: Here also a specific time is used, but in this case much more time is given, likes 365 hours.</li>
+                            <li>Jwt Expire in Remember me option: In the case of log in section if you want to activate the remember me option just put expire time like 365h.</li>
                         </ul>
                         <img className='h-auto w-auto' src="/images/s3.png" alt="" />
                     </div>
@@ -58,21 +65,21 @@ const Setting = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>AWS Bucket Information</h5>
                     <div className='m-4'>
-                        <p>AWS means Amazon Web Services.<Link href='https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html'>Click Here for proper guide line</Link></p>
+                        <p>Please fill out proper AWS bucket information. <a href='https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html' target='_blank'>Click Here for proper instructions</a></p>
                         <img className='h-auto w-auto' src="/images/s4.png" alt="" />
                     </div>
                 </div>
                 <div className='my-4 shadow p-4'>
-                    <p className='text-red-500 font-semibold'>After filling out the settings form you have to restart the server.</p>
+                    <p className='text-red-500 font-semibold mb-0'>After completion this process you have to restart the server.</p>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>Server Restart</h5>
                     <div className='m-4'>
-                        <p>Go to your cPanel or server panel, Click your backend folder</p>
+                        <p>Go to your cPanel or server panel. Click your backend folder.</p>
                         <img className='h-auto w-auto' src="/images/restart1.png" alt="" />
                     </div>
                     <div className='m-4'>
-                        <p>Then you can get this kind of pop up, follow the instructions in the picture.</p>
+                        <p>Then you will get this kind of pop up, follow the instructions in the picture.</p>
                         <img className='h-auto w-auto' src="/images/restart2.png" alt="" />
                     </div>
                     <div className='m-4'>
@@ -80,8 +87,8 @@ const Setting = () => {
                         <img className='h-auto w-auto' src="/images/restart3.png" alt="" />
                     </div>
                     <div className='my-4 shadow p-4'>
-                    <p className='text-red-500 font-semibold mb-0'>Then go to your website and reload this page. Then you can see your front page.</p>
-                </div>
+                        <p className='text-red-500 font-semibold mb-0'>Then go to your website and reload this page. Then you can see your home page.</p>
+                    </div>
                 </div>
             </div>
         </AdminLayout>
