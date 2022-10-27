@@ -1,5 +1,5 @@
 import {
-    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk,MdPassword,
+    MdEditNote, MdRule, MdAnnouncement, MdAdminPanelSettings, MdOutlineSupportAgent, MdSupervisorAccount, MdSupervisedUserCircle, MdPhoneInTalk, MdPassword,
 } from "react-icons/md";
 import Sidebar from "../components/dashboard/sidebar.js";
 import Header from "../components/dashboard/header.js";
@@ -56,7 +56,17 @@ const menu = [
                 icon: MdEditNote,
                 href: '/instruction/setting',
             },
+            {
+                label: 'Website Run Time Work Flow',
+                icon: TiFlowMerge,
+                href: '/instruction/run',
+            },
         ]
+    },
+    {
+        label: 'Tax Filing Work Flow',
+        icon: FcWorkflow,
+        href: '/flow/file',
     },
     {
         label: 'Admin Panel',
@@ -191,22 +201,6 @@ const menu = [
         label: 'Tawk to',
         icon: MdPhoneInTalk,
         href: '/tawkTo',
-    },
-    {
-        label: 'Work Flow',
-        icon: FcWorkflow,
-        child: [
-            {
-                label: 'Website Run Time Work Flow',
-                icon: TiFlowMerge,
-                href: '/flow/run/',
-            },
-            {
-                label: 'Tax Filing Work Flow',
-                icon: TiFlowMerge,
-                href: '/flow/file/',
-            },    
-        ]
     },
     {
         label: 'Password Reset',

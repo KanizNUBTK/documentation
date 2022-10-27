@@ -20,12 +20,16 @@ const TermsAndCondision = () => {
                         <img className='h-auto w-auto my-2' src="/images/terms_and_conditions.png" alt="" />
                     </li>
                     <li className='my-4'>
-                        <p >But first, you need to assign terms to your company, which you do from the <span className='font-bold text-red-600 flex items-center'>Website Settings <MdOutlineKeyboardArrowRight /> Frontend page</span>, and this page can be found under <span className='font-bold text-red-600'>More</span> Options on your website.</p>
+                        <p>In <span className='font-bold text-red-600'>Add link</span> field you have to give your website terms and condition page link. You will find the page under <span className='font-bold text-red-600'>More</span> option on your website</p>
                         <img className='h-auto w-auto my-2' src="/images/tc1.png" alt="" />
                     </li>
                     <li className='my-4'>
                         <p>Then go to the page and copy the URL into the browser address bar .</p>
                         <img className='h-auto w-auto my-2' src="/images/tc2.png" alt="" />
+                    </li>
+                    <li className='my-4'>
+                        <p className=''>If you do not have this terms page, you may follow these instructions.</p>
+                        <img className='h-auto w-auto my-2' src="/images/more.png" alt="" />
                     </li>
                     <li className='my-4'>
                         <p>After completing all the process you will successfully execute your terms and conditions.</p>

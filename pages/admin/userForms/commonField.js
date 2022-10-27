@@ -6,7 +6,7 @@ import { BsArrowReturnLeft } from 'react-icons/bs';
 const CommonField = () => {
     const router = useRouter();
     const handleRouteChange = () => {
-        router.push('/admin/userForms/')
+        router.push('/instruction/run/')
     }
     const handleTextLink = () => {
         router.push('https://appstick-resources.s3.ap-southeast-1.amazonaws.com/taxstick-storage/common_form_fields.json')
