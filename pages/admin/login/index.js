@@ -22,7 +22,7 @@ const Login = () => {
                     <h5 className='border-b-[1px] border-black'>Admin dashboard</h5>
                     <div className='m-4'>
                         <p>After login complete admin can see his personal dashboard</p>
-                        <img src="/images/adDash.png" alt="" />
+                        <img src="/images/addash.png" alt="" />
                     </div>
                 </div>
             </div>

@@ -13,12 +13,12 @@ const userDisplay = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>User Details Page</h5>
                     <p>On this page, the administrator can view a specific client account.</p>
-                    <img className='h-auto w-auto' src="/images/userDetails.png" alt="" />
+                    <img className='h-auto w-auto' src="/images/userdetails.png" alt="" />
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>User Information Edit Page</h5>
                     <p>On this page, the administrator can edit the information of a specific client.</p>
-                    <img className='h-auto w-auto' src="/images/userEdit.png" alt="" />
+                    <img className='h-auto w-auto' src="/images/useredit.png" alt="" />
                 </div>
             </div>
         </AdminLayout>

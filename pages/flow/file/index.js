@@ -11,7 +11,7 @@ const WorkFlow = () => {
                     <span className='bg-cyan-500 text-white rounded px-4 py-1 '>User Panel</span>
                     <p className='mt-2'>A user has to fill out the form in 3 steps:</p>
                     <ul className='list-decimal'>
-                        <li className='text-red-600 font-bold my-'>About you,<img className='h-[600px] mt-2' src='/images/usForm2.png' alt="" /></li>
+                        <li className='text-red-600 font-bold my-'>About you,<img className='h-[600px] mt-2' src='/images/aboutyou.png' alt="" /></li>
                         <li className='text-red-600 font-bold my-4'>Income summary,<img className='h-[600px] mt-2' src='/images/income.png' alt="" /></li>
                         <li className='text-red-600 font-bold my-4'>Payment,<img className='h-[600px] mt-2' src='/images/pay.png' alt="" /></li>
                     </ul>

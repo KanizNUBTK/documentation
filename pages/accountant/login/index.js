@@ -9,7 +9,7 @@ const AccountantLogin = () => {
                     <h5 className='border-b-[1px] border-black'>Accountant Sign Up</h5>
                     <div className='m-4'>
                         <p>A new Accountant can register his account use this form, but at first s/he need to check mark accountant button, then fill up the form. <span className='text-red-500'>An email will be sent to your email as a sign in confirmation</span></p>
-                        <img className='h-96' src='/images/signUp.png' alt="" />
+                        <img className='h-96' src='/images/signup.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>

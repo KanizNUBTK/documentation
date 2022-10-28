@@ -10,14 +10,14 @@ const index = () => {
                     <h5 className='border-b-[1px] border-black'>Step 1</h5>
                     <div className='m-4'>
                         <p>User must first select the year to submit his tax file</p>
-                        <img className='h-auto w-auto' src='/images/usForm1.png' alt="" />
+                        <img className='h-auto w-auto' src='/images/usform1.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Step 2</h5>
                     <div className='m-4'>
                         <p>Then fill up his/her information and submit tax files, then click save and next button</p>
-                        <img className='h-auto w-auto' src='/images/usForm2.png' alt="" />
+                        <img className='h-auto w-auto' src='/images/aboutyou.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>

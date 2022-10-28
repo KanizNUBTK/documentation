@@ -13,17 +13,17 @@ const Coupon = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Assign Coupon Drop Down</h5>
                     <p>On drop down page, admin can assign coupons for specific roles.</p>
-                    <img className='h-auto w-auto' src="/images/assCoupon.png" alt="" />
+                    <img className='h-auto w-auto' src="/images/asscoupon.png" alt="" />
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Coupon Add Page</h5>
                     <p>On this page, the admin can add new Coupon information .</p>
-                    <img className='h-auto w-auto' src="/images/addCou.png" alt="" />
+                    <img className='h-auto w-auto' src="/images/addcou.png" alt="" />
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Coupon Information Update Page</h5>
                     <p>On this page, the admin can update  Coupon information.</p>
-                    <img className='h-auto w-auto' src="/images/editCou.png" alt="" />
+                    <img className='h-auto w-auto' src="/images/editcou.png" alt="" />
                 </div>
             </div>
         </AdminLayout>

@@ -9,12 +9,12 @@ const AcAllFiles = () => {
                     <h5 className='border-b-[1px] border-black'>Accountant All Tax files</h5>
                     <div className='m-4'>
                         <p>After the admin gives access to the tax file accountant, the file information in the mentioned table, </p>
-                        <img className='w-auto h-auto my-2' src="/images/acFile.png" alt="" />
+                        <img className='w-auto h-auto my-2' src="/images/acfile.png" alt="" />
                         <ul className='list-disc'>
                             <li><span className='font-bold text-red-500'>Download button and Action column: </span>Accountant can download a file. If he wants to download multiple files, he needs to mark the files. He can download the file in Excel, PDF or CSV format.</li>
                             <li><span className='font-bold text-red-500'>Details button in action column: </span>view the file information specifically,</li>
                             <li><span className='font-bold text-red-500'>Email: </span> Accountant can email users for any need,
-                                <img className='w-auto h-[300px] my-2' src="/images/scEmail.png" alt="" /></li>
+                                <img className='w-auto h-[300px] my-2' src="/images/scemail.png" alt="" /></li>
                             <li><span className='font-bold text-red-500'>Send File: </span>After completing his work, the accountant will submit the user file using the send file option. When he sends the file to the user, the administrator, user, and accountant will also receive a submission email.
                             <img className='w-auto h-auto border' src="/images/sent.png" alt="" /></li>
                             <li><span className='font-bold text-red-500'>Status:</span>An accountant can change the file status or view the file review status.
@@ -34,7 +34,7 @@ const AcAllFiles = () => {
                     <h5 className='border-b-[1px] border-black'>Details Of A Single Tax files</h5>
                     <div className='m-4'>
                         <p>On this page, an accountant can see the details of a specific file.</p>
-                        <img className='w-auto h-auto' src="/images/acDetail.png" alt="" />
+                        <img className='w-auto h-auto' src="/images/acdetail.png" alt="" />
                     </div>
                 </div>
             </div>

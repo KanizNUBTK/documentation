@@ -9,7 +9,7 @@ const AccountantLogin = () => {
                     <h5 className='border-b-[1px] border-black'>User Sign Up</h5>
                     <div className='m-4'>
                         <p>A new User can register his account use this form. At first s/he will check mark the New user button, then select his role, after fill up the form.</p>
-                        <img className='h-96' src='/images/signUp.png' alt="" />
+                        <img className='h-96' src='/images/signup.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>

@@ -13,12 +13,12 @@ const Province = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Single Province Details Page</h5>
                     <p>On this page, the administrator can view a specific province information.</p>
-                    <img className='h-auto w-auto' src="/images/proDetails.png" alt="" />
+                    <img className='h-auto w-auto' src="/images/prodetails.png" alt="" />
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Province Add Page</h5>
                     <p>On this page, the administrator can add new province information tax information.</p>
-                    <img className='h-auto w-auto' src="/images/proAdd.png" alt="" />
+                    <img className='h-auto w-auto' src="/images/proadd.png" alt="" />
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Province Information Update Page</h5>
