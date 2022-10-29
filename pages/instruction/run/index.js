@@ -38,7 +38,7 @@ const WebsiteRun = () => {
                 <div className='m-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>4. Add user role </h5>
                     <p >Now you need to add your user role . </p>
-                    <img className='h-auto w-auto mx-auto' src='/images/roleAdd.png' alt="" />
+                    <img className='h-auto w-auto mx-auto' src='/images/roleadd.png' alt="" />
                 </div>
                 <div className='m-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>5. Add tax price value </h5>
