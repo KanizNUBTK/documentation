@@ -19,36 +19,13 @@ const backend = () => {
                             Then you have to go to your file manager of your server panel or cPanel, then upload the taxstick-backend.zip file.
                             <img className='h-[500px] w-auto mt-4' src="/images/b1.png" alt="" />
                         </li>
-                        {/* <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 2</p>
-                            After clicking upload button, you can get this type of window and you have to select upload button.
-                            <img className='h-[500px] w-auto mt-4' src="/images/b2.png" alt="" />
-                        </li>
-                        <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 4</p>
-                            Then select <span className='italic text-red-400'>taxstick-backend.zip</span>  file and click open button.
-                            <img className='h-[500px] w-auto mt-4' src="/images/b3.png" alt="" />
-                        </li>
-                        <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 5</p>
-                            Then select the Upload button and your project will start uploading to your hosting server.
-                            <img className='h-[500px] w-auto mt-4' src="/images/b4.png" alt="" />
-                        </li>
-                        <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 6</p>
-                            After finishing uploading, close the window
-                            <img className='h-[500px] w-auto mt-4' src="/images/b5.png" alt="" />
-                        </li> */}
+                    
                         <li className='my-4'>
                         <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 3</p>
                             Then <span className='italic text-red-400'>Unzip</span> the file,
                             <img className='h-[500px] w-auto mt-4' src="/images/b6.png" alt="" />
                         </li>
-                        {/* <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 8</p>
-                             Then you can see the <span className='italic text-red-400'>decompress window</span>  and click the confirm button, your file is now unzipped,
-                            <img className='h-[500px] w-auto mt-4' src="/images/b7.png" alt="" />
-                        </li> */}
+                    
                         <li className='my-4'>
                         <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 4</p>
                              Now you can see the uploaded files.
