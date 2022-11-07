@@ -14,9 +14,9 @@ const WebsiteRun = () => {
     return (
         <AdminLayout>
             <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-4'>
-                <h5 className='text-center font-bold capitalize'>Run time instruction</h5>
+                <h5 className='text-center font-bold capitalize'>Run time instructions</h5>
                 <div className='m-4 bg-green-500 p-4'>
-                    <p className='text-center mb-0 text-white text-[20px]'>Make sure that, you have already filled up settings form and restart your backend server</p>
+                    <p className='text-center mb-0 text-white text-[20px]'>Make sure that, you have already filled up settings form and restart your backend server.</p>
                 </div>
                 <div className='m-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>1. Admin login</h5>
@@ -25,7 +25,7 @@ const WebsiteRun = () => {
                 </div>
                 <div className='m-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>2. Website setting information fill up</h5>
-                    <p>Open your admin dashboard, scroll to the sidebar and find website settings, then click on it, you need to fill out the information here, but for initial set up you need to fill out <span className='text-red-500'> Website Information, Manage SMTP Setting, Environment Setting</span> at first .</p>
+                    <p>Open your admin dashboard, scroll to the sidebar and find website settings, then click on it, you need to fill out the information here, but for initial set up you need to fill out <span className='text-red-500'> Website Information, Manage SMTP Setting</span> and <span className='text-red-500'>Environment Setting</span> at first.</p>
                     <img className='h-auto w-auto mx-auto' src='/images/flow6.png' alt="" />
                 </div>
                 <div className='m-4'>
@@ -34,7 +34,7 @@ const WebsiteRun = () => {
                 </div>
                 <div className='m-4'>
                     <h5 className='border-b-[1px] border-black capitalize'>4. Add user role </h5>
-                    <p >Now you need to add your user role . </p>
+                    <p >Now you need to add your user role. </p>
                     <img className='h-auto w-auto mx-auto' src='/images/roleadd.png' alt="" />
                 </div>
                 <div className='m-4'>
@@ -62,7 +62,7 @@ const WebsiteRun = () => {
                     <p >And lastly, you can add accountants and users as per your wish using signup.</p>
                     <img className='h-[500px] w-auto mx-auto' src='/images/signup.png' alt="" />
                 </div>
-                <p className='p-4 shadow text-center text-red-500 font-bold'>If you complete the entire procedure correctly, your website will be up and running . <br />If you face any problem we will provide free Support.</p>
+                <p className='p-4 shadow text-center text-red-500 font-bold'>If you complete the entire procedure correctly, your website will be up and running. <br />If you face any problem we will provide free Support.</p>
             </div>
         </AdminLayout>
     );
