@@ -19,9 +19,11 @@ const HomePage = () => {
                         <li>Hero Section Sub-Title:In this field, you can add some text about your website.</li>
                         <li>Hero Section Image: In this field, you can add 2 photos to your company.</li>
                         <li>Why To File tax:In this field, You can add your main job type, we recommend you to give data on 3 cards.
-                        <img className='h-auto w-auto mx-auto my-4' src="/images/why.png" alt="" />
+                            <img className='h-auto w-auto mx-auto my-4' src="/images/why.png" alt="" />
                         </li>
-                        <li>Why: In this field, You can tell the main reason why users use your company.</li>
+                        <li>Why: The main reasons why users use your company and the 4 important points of your company you can tell.
+                            <img className='h-auto w-auto' src="/images/why1.png" alt="" />
+                        </li>
                         <li>Add Services: In this field,You can add your services as you wish.</li>
                         <li>Add Information Videos: In this field,You can add some informative vidoes. we recommend you to give 3 videos.</li>
                         <li>Partnerships logo: In this field,You can add your partnerships logo as you wish..</li>
@@ -29,8 +31,8 @@ const HomePage = () => {
                         <li>How To File Tax Title: In this field,You can add your tax file related videos left side header.</li>
                         <li>How To File Tax Short Description: In this field,You can add your tax file related videos left side headers description.</li>
                     </ul>
-                   
-                    
+
+
                 </div>
             </div>
         </AdminLayout>
