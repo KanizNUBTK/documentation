@@ -4,7 +4,7 @@ import AdminLayout from '../../../layout/adminLayout';
 const AccountantLogin = () => {
     return (
         <AdminLayout>
-            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px]'>
+            <div className='bg-gray-50 h-auto m-6 w-[90%] text-[16px] p-4 rounded'>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>User Sign Up</h5>
                     <div className='m-4'>
@@ -13,9 +13,16 @@ const AccountantLogin = () => {
                     </div>
                 </div>
                 <div className='my-4'>
+                    <h5 className='border-b-[1px] border-black'>User Email Notification</h5>
+                    <div className='m-4'>
+                        <p>You will receive an email notification at this point when the user completes his registration. He can activate his account within 24 hours by clicking on the link provided in the email. Or he can wait for admin confirmation.</p>
+                        <img className='h-auto' src='/images/usact.png' alt="" />
+                    </div>
+                </div>
+                <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>User Login</h5>
                     <div className='m-4'>
-                        <p>After the administrator confirms the user of this company, the user will be allowed to login to his dashboard.</p>
+                        <p>After confirming the registration, the user will be allowed to log into his dashboard.</p>
                         <img className='h-96' src='/images/login.png' alt="" />
                     </div>
                 </div>
