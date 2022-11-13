@@ -42,18 +42,21 @@ const WorkFlow = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Flow 3</h5>
                     <span className='bg-cyan-500 text-white rounded px-4 py-1 '>Accountant Panel</span>
-                    <p className='my-2'>When the accountant completes the work he submits the file.When he sends the file to the user, the administrator, user, and accountant will also receive a confirmation email. Using <span className='text-red-500'>Send file</span> column</p>
+                    <p className='my-2'>The accountant will upload the completed task using choose file button. At this time the admin, accountant, and the user will receive the confirmation emails. Using <span className='text-red-500'>Send file</span> column</p>
                     <img className='h-auto w-auto border rounded mb-4' src="/images/flow4.png" alt="" />
                     <span className='bg-cyan-500 text-white rounded px-4 py-1 '>User Panel</span>
-                    <p className='my-2'>And user will see the file in his panel, he can take review if he wants but maximum 2 times can request for review.</p>
+                    <p className='my-2'>And user will see the completed files in his panel after uploading by the accountant. Now the user will receive an email and can download it or also take review it if he/she wants. But a maximum of two times a  user can request for review.</p>
                     <img className='h-auto w-auto border rounded' src="/images/file2.png" alt="" />
-                    <p className='my-4'>And the user also receives an email notification.</p>
-                    <img className='h-[400px] w-auto border rounded' src="/images/taxcom.png" alt="" />
+                    <div className='my-4'>
+                        <span className='bg-cyan-500 text-white rounded px-4 py-1'>The confirmation email:</span>
+                        <p >And the user also receives an email notification.</p>
+                        <img className='h-[400px] w-auto border rounded' src="/images/taxcom.png" alt="" />
+                    </div>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Flow 4</h5>
                     <span className='bg-cyan-500 text-white rounded px-4 py-1 '>Admin Panel</span>
-                    <p className='my-4'>If a user takes a review, the admin and accountant will get a review status at the same time. At this point, the accountant cannot take any action until an email notification is received from the admin. But the admin can choose any accountant for this action.</p>
+                    <p className='my-4'>If a user takes a review, the admin and accountant will get a review status at the same time. The accountant cannot take any action until an email notification is received from the admin. Also, the admin can choose any accountant for this action.</p>
                     <img className='h-auto w-auto border rounded' src="/images/flow5.png" alt="" />
                 </div>
             </div>
