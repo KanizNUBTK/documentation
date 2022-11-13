@@ -22,12 +22,12 @@ const AccountantLogin = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Accountant dashboard</h5>
                     <div className='m-4'>
-                        <p>After Accountant login complete s/he can see his personal dashboard</p>
+                        <p>After Accountant login complete s/he can see his personal dashboard.</p>
                         <img src="/images/acdash.png" alt="" />
                     </div>
                 </div>
                 <div className='border-2 border-red-300 my-4 h-20  text-[18px] font-medium flex items-center justify-center'>
-                    <p className='mb-0'><span className='text-[20px] text-red-500'>*</span>All users, accountants, and admins have the same type of profile page. they all can fill up their personal profile informationon</p>
+                    <p className='mb-0'><span className='text-[20px] text-red-500'>*</span>All users, accountants, and admins have the same type of profile page. they all can fill up their personal profile information.</p>
                 </div>
             </div>
         </AdminLayout>

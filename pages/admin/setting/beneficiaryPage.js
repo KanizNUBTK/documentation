@@ -21,14 +21,14 @@ const BeneficiaryPage = () => {
                 <div className='m-4'>
                     <p className='mb-0'>Short Description of the form:</p>
                     <ul className='list-disc'>
-                        <li>Hero section tittle: You must give a role specification title</li>
-                        <li>Hero section sub-tittle: You must give some text in an introduction specification</li>
+                        <li>Hero section tittle: You must give a role specification title.</li>
+                        <li>Hero section sub-tittle: You must give some text in an introduction specification.</li>
                         <li>Hero section image: You must give a photo for this section</li>
                         <li>Section 1 and Section 2 work process is almost same.
                             <ul className='list-disc'>
-                                <li>Each of these two sections will require one heading tittle</li>
-                                <li>Each of these two categories will require descriptive information</li>
-                                <li>Each of these two sections will require two photos to make it attractive</li>
+                                <li>Each of these two sections will require one heading tittle.</li>
+                                <li>Each of these two categories will require descriptive information.</li>
+                                <li>Each of these two sections will require two photos to make it attractive.</li>
                             </ul>
                         </li>
                         <li>Work Process Section(Title): Each role has a descriptive section of how the user works, which requires a title.</li>
@@ -40,7 +40,7 @@ const BeneficiaryPage = () => {
                         </li>
                     </ul>
                     <div className='flex justify-around items-center border-2 border-red-500 m-4 rounded'>
-                        <p className='text-[34px]'>Here you can see the changes</p>
+                        <p className='text-[34px]'>Here you can see the changes.</p>
                         <img className='h-auto w-auto' src="/images/des3.png" alt="" />
                     </div>
                 </div>

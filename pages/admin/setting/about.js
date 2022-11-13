@@ -11,7 +11,7 @@ const AboutPage = () => {
                 </div>
                 <h5 className='border-b-[1px] border-black'>Website about page information</h5>
                 <div className='m-4'>
-                    <p>This form takes your compnay information, This information will be display on the about page in the live website</p>
+                    <p>This form takes your company information, This information will be display on the about page in the live website</p>
                     <img className='h-auto w-auto' src="/images/about.png" alt="" />
                 </div>
             </div>

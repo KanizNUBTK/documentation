@@ -24,7 +24,7 @@ const AcAllFiles = () => {
                                 </div>
                                 <p className='shadow p-4 text-red-500 font-bold'>***If a file needs review, the accountant can see the status, but until the admin selects a specific accountant, the accountant cannot start working on that file.***</p>
                             </li>
-                            <li><span className='font-bold text-red-500'>Search : </span>Accountant can search any file using ID</li>
+                            <li><span className='font-bold text-red-500'>Search: </span>Accountant can search any file using ID</li>
                             <li>He can determine the number of rows in the table through <span className='font-bold text-red-500'>Show entire</span>
                                 <img className='w-auto h-auto my-2' src="/images/row.png" alt="" /></li>
                         </ul>

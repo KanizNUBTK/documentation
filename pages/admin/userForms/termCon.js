@@ -24,7 +24,7 @@ const TermsAndCondision = () => {
                         <img className='h-auto w-auto my-2' src="/images/tc1.png" alt="" />
                     </li>
                     <li className='my-4'>
-                        <p>Then go to the page and copy the URL into the browser address bar .</p>
+                        <p>Then go to the page and copy the URL into the browser address bar.</p>
                         <img className='h-auto w-auto my-2' src="/images/tc2.png" alt="" />
                     </li>
                     <li className='my-4'>

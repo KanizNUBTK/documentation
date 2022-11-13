@@ -11,7 +11,7 @@ const HomePage = () => {
                 </div>
                 <h5 className='border-b-[1px] border-black'>Website home page information</h5>
                 <div className='m-4'>
-                    <p>This form takes live website main page information, This information will be display on the home page in the live website</p>
+                    <p>This form takes live website main page information, This information will be display on the home page in the live website.</p>
                     <img className='h-auto w-auto' src="/images/home.png" alt="" />
                     <p className='mt-6'>Details:</p>
                     <ul className='list-disc'>
@@ -26,7 +26,7 @@ const HomePage = () => {
                         </li>
                         <li>Add Services: In this field,You can add your services as you wish.</li>
                         <li>Add Information Videos: In this field,You can add some informative vidoes. we recommend you to give 3 videos.</li>
-                        <li>Partnerships logo: In this field,You can add your partnerships logo as you wish..</li>
+                        <li>Partnerships logo: In this field,You can add your partnerships logo as you wish.</li>
                         <li>File Tax Videos: In this field,You can add your tax file related videos as you wish.</li>
                         <li>How To File Tax Title: In this field,You can add your tax file related videos left side header.</li>
                         <li>How To File Tax Short Description: In this field,You can add your tax file related videos left side headers description.</li>

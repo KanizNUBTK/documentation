@@ -12,7 +12,7 @@ const SMTPPage = () => {
                 <h5 className='border-b-[1px] border-black capitalize'>Website SMTP Information</h5>
                 <div className='m-4'>
                     <p>This form takes the Simple Mail Transfer Protocol (SMTP) information.These section helps you to send email to your any users,</p>
-                    <p>Genaral section : Need 3 bacis informations.</p>
+                    <p>General section : Need 3 basic information.</p>
                     <img className='h-auto w-auto' src="/images/smtp.png" alt="" />
                 </div>
                 <div className='m-4'>

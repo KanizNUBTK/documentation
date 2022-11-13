@@ -11,7 +11,7 @@ const PricePage = () => {
                 </div>
                 <h5 className='border-b-[1px] border-black'> Tax pricing</h5>
                 <div className='m-4'>
-                    <p>On the TaxFile pricing page, you can add tax pricing depending on the user role, Stripe, Paypal,Razorpay,Mollie, You can take your payment through these 4 channels
+                    <p>On the TaxFile pricing page, you can add tax pricing depending on the user role, Stripe, Paypal,Razorpay,Mollie, You can take your payment through these 4 channels.
                     </p>
                     <img className='h-auto w-auto' src="/images/tax.png" alt="" />
                 </div>

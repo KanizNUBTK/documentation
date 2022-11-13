@@ -42,7 +42,7 @@ const WorkFlow = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Flow 3</h5>
                     <span className='bg-cyan-500 text-white rounded px-4 py-1 '>Accountant Panel</span>
-                    <p className='my-2'>The accountant will upload the completed task using choose file button. At this time the admin, accountant, and the user will receive the confirmation emails. Using <span className='text-red-500'>Send file</span> column</p>
+                    <p className='my-2'>The accountant will upload the completed task using choose file button. At this time the admin, accountant, and the user will receive the confirmation emails. Using <span className='text-red-500'>Send file</span> column.</p>
                     <img className='h-auto w-auto border rounded mb-4' src="/images/flow4.png" alt="" />
                     <span className='bg-cyan-500 text-white rounded px-4 py-1 '>User Panel</span>
                     <p className='my-2'>And user will see the completed files in his panel after uploading by the accountant. Now the user will receive an email and can download it or also take review it if he/she wants. But a maximum of two times a  user can request for review.</p>

@@ -12,7 +12,7 @@ const RolePermission = () => {
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Single Role Update Page</h5>
-                    <p>On this page, the admin can view a specific role information , he also update imformation.</p>
+                    <p>On this page, the admin can view a specific role information , he also update information.</p>
                     <img className='h-auto w-auto' src="/images/roleedit.png" alt="" />
                 </div>
                 <div className='my-4'>

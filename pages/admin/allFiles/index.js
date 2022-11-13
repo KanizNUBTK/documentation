@@ -17,7 +17,7 @@ const AllTaxFiles = () => {
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>File Details</h5>
-                    <p>On this page you can see all information in this file</p>
+                    <p>On this page you can see all information in this file.</p>
                     <img className='h-auto w-auto' src="/images/filedetail.png" alt="" />
                 </div>
                 <div className='my-4'>
