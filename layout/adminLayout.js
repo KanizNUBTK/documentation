@@ -129,7 +129,7 @@ const menu = [
                 href: '/accountant/login',
             },
             {
-                label: 'Accountant ALl Files',
+                label: 'Account All Files',
                 icon: TiContacts,
                 href: '/accountant/allTaxFile',
             },
@@ -145,7 +145,7 @@ const menu = [
                 href: '/user/login',
             },
             {
-                label: 'User Form Fill Up Process',
+                label: 'Tax File Submission',
                 icon: TiContacts,
                 href: '/user/form',
             },
@@ -155,7 +155,7 @@ const menu = [
                 href: '/user/mytaxFile',
             },
             {
-                label: 'File Form A/C ',
+                label: 'File From A/C ',
                 icon: TiContacts,
                 href: '/user/fileAC',
             },

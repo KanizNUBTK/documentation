@@ -8,26 +8,26 @@ const AccountantLogin = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Accountant Sign Up</h5>
                     <div className='m-4'>
-                        <p>A new Accountant can register his account use this form, but at first s/he need to check mark accountant button, then fill up the form. <span className='text-red-500'>An email will be sent to your email as a sign in confirmation</span></p>
-                        <img className='h-96' src='/images/signup.png' alt="" />
+                        <p>A new Accountant can register his account through the website sign-up page, but first, he/she needs to check the mark accountant button, then fill up the sign-up information. An email will be sent to the corresponding accountant and admin to complete the sign-up process like the user.</p>
+                        <img className='h-uto' src='/images/acsi.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Accountant Login</h5>
                     <div className='m-4'>
-                        <p>After the admin confirms  the accountant of this company, the administrator will give the login email and password to the accountant, through which the accountant can log in to his dashboard.</p>
+                        <p>After confirmation from the admin side, the administrator will receive the login credential through his/her email. Then, the accountant can log in to the system.</p>
                         <img className='h-96' src='/images/login.png' alt="" />
                     </div>
                 </div>
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Accountant dashboard</h5>
                     <div className='m-4'>
-                        <p>After Accountant login complete s/he can see his personal dashboard.</p>
+                        <p>After the successful login, the accountant will redirect to his/her dashboard.</p>
                         <img src="/images/acdash.png" alt="" />
                     </div>
                 </div>
                 <div className='border-2 border-red-300 my-4 h-20  text-[18px] font-medium flex items-center justify-center'>
-                    <p className='mb-0'><span className='text-[20px] text-red-500'>*</span>All users, accountants, and admins have the same type of profile page. they all can fill up their personal profile information.</p>
+                    <p className='mb-0'><span className='text-red-500'>*</span> All users, accountants, and admins have the same type of profile page. They can easily manage their personal profile information.</p>
                 </div>
             </div>
         </AdminLayout>

@@ -96,7 +96,7 @@ const UserFormsFields = () => {
                     <li className='my-4 bg-red-500 p-4'>
                         <h5 className='inline  text-white'>Terms and Conditions: </h5>
                         <p className='inline text-[18px] text-white'>It is very important to add a terms and conditions option to your user form. Please follow the process.</p>
-                        <p className='inline  text-white mx-4 border-2 border-white rounded px-4 py-2 cursor-pointer font-bold' onClick={handleTermsRouteChange}>
+                        <p className='inline  text-white mx-4 border-2 border-white rounded px-4 py-1 cursor-pointer font-bold' onClick={handleTermsRouteChange}>
                             Click Here</p>
                     </li>
                 </ul>

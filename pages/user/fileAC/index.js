@@ -8,7 +8,7 @@ const FIleFormAC = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>File From A/C Page</h5>
                     <div className='m-4'>
-                        <p>The user will see his complete file on this page in the table. You can download your files from here. Again if any problem is shown in your file then you can take maximum two reviews.</p>
+                        <p>The user will see his/her complete files on this page in the table view. The user can download files from here. If the user needs any review then the user will be able to take a maximum of two reviews.</p>
                         <img className='h-auto w-auto' src='/images/file1.png' alt="" />
                     </div>
                 </div>

@@ -8,7 +8,7 @@ const FeedbackUser = () => {
                 <div className='my-4'>
                     <h5 className='border-b-[1px] border-black'>Feedback Page</h5>
                     <div className='m-4'>
-                        <p>On this page, User can give their personal opinion of the service, they can give ratings up to 5 and give their valuable opinion</p>
+                        <p>The user can give their personal opinion and feedback on the service with a rating.</p>
                         <img className='h-auto w-auto' src='/images/rate.png' alt="" />
                     </div>
                 </div>
