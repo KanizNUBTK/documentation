@@ -26,15 +26,15 @@ const backend = () => {
                             Then you need to open your terminal or command prompt (mac and linus user) or windows user you have to follow the picture. Select the address bar and type <span className=' text-red-400'>cmd</span>
                             <img className='h-[500px] w-auto my-4' src="/images/f5.png" alt="" />
                             <p>Then the command prompt open. Type <span className=' text-red-400'>yarn run buildexport</span> and hit enter</p>
-                            <img className='h-[500px] w-auto my-4' src="/images/f6.png" alt="" />
+                            <img className='h-auto w-auto my-4' src="/images/f6.png" alt="" />
                             <p>After build successfully, you can see <span className=' text-red-400'>Export successful</span> message and then you will get <span className=' text-red-400'>out</span> folder</p>
-                            <img className='h-[500px] w-auto my-4' src="/images/f7.png" alt="" />
+                            <img className='h-auto w-auto my-4' src="/images/f7.png" alt="" />
 
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 4</p>
                             <p>Now zip the <span className=' text-red-400'>out</span> folder and upload it to your server.</p>
-                            <img className='h-[500px] w-auto my-4' src="/images/f8.png" alt="" />
+                            <img className='h-auto w-auto my-4' src="/images/f8.png" alt="" />
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 5</p>

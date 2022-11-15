@@ -21,6 +21,27 @@ const Install = () => {
                             <li className='my-4'>You will find two files <span className='text-[20px] font-bold text-red-500'>1. taxstick-backend</span> and <span className='text-[20px] font-bold text-red-500'>2. taxstick-frondend</span>.
                                 <img className='h-[500px] w-auto mt-4' src="/images/i3.png" alt="" />
                             </li>
+                            <li className='my-4'>
+                                Install project dependencies:
+                                <ul className='list-disc'>
+                                    <li> <div className='flex gap-2'><p className='mb-0'> If NodeJs is not installed, then follow this step to install NodeJs:</p>
+                                        <p className='mb-0'><Link href='https://nodejs.org/en/'><a target="_blank" rel="noopener noreferrer">https://nodejs.org/en/</a></Link></p>
+                                    </div>
+                                    </li>
+                                    <li>
+                                        After successfully installed, check NodeJs version. It will show some number. 
+                                        <span className='text-red-500 font-medium'> node --version</span> 
+                                    </li>
+                                    <li>
+                                        If yarn is not installed, then use the following command to install yarn: 
+                                        <span className='text-red-500 font-medium'> npm i -g yarn</span>
+                                    </li>
+                                    <li>
+                                        Check yarn version, It will show some number. 
+                                        <span className='text-red-500 font-medium'> yarn --version</span>
+                                    </li>
+                                </ul>
+                            </li>
                             <p className='text-center'>Now you need to follow the below instructions</p>
                             <div className='flex justify-center items-center gap-4'>
                                 <div className="h-10 w-72 flex justify-center items-center rounded bg-[#D22F25]">

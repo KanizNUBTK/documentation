@@ -12,38 +12,44 @@ const backend = () => {
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 1</p>
                             First of all, you need to deploy the backend in your Domain or Subdomain. <span className='italic'> But we recommend subdomain actually. For example, <span className=' text-red-400'>backend.your_main_domain@something.com.</span></span>
                             <br /> Now you need to zip the taxstick-backend file.
-                            <img className='h-[500px] w-auto mt-4' src="/images/i4.png" alt="" />
+                            <img className='h-auto w-auto mt-4' src="/images/i4.png" alt="" />
                         </li>
                         <li className='my-4'>
                             <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 2</p>
                             Then you have to go to your file manager of your server panel or cPanel, then upload the taxstick-backend.zip file.
-                            <img className='h-[500px] w-auto mt-4' src="/images/b1.png" alt="" />
+                            <img className='h-auto w-auto mt-4' src="/images/b1.png" alt="" />
                         </li>
-                    
+
                         <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 3</p>
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 3</p>
                             Then <span className='italic text-red-400'>Unzip</span> the file,
-                            <img className='h-[500px] w-auto mt-4' src="/images/b6.png" alt="" />
+                            <img className='h-auto w-auto mt-4' src="/images/b6.png" alt="" />
                         </li>
-                    
+
                         <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 4</p>
-                             Now you can see the uploaded files.
-                            <img className='h-[500px] w-auto mt-4' src="/images/b8.png" alt="" />
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 4</p>
+                            Open your terminal and enter<span className='italic text-red-400 font-medium'> sudo yarn</span> command and hit enter,
+                            <img className='h-auto w-auto mt-4' src="/images/sudo.png" alt="" />
+                        </li>
+
+                        <li className='my-4'>
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 5</p>
+                            Now you can see the uploaded files.
+                            <img className='h-auto w-auto mt-4' src="/images/b8.png" alt="" />
                         </li>
                         <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 5</p>
-                             Then you can find the <span className='italic text-red-400'> Website</span> button on the sidebar and click on it.
-                            <img className='h-[500px] w-auto mt-4' src="/images/b9.png" alt="" />
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 6</p>
+                            Then you can find the <span className='italic text-red-400'> Website</span> button on the sidebar and click on it.
+                            <img className='h-auto w-auto mt-4' src="/images/b9.png" alt="" />
                         </li>
-                        <li className='my-4'> 
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 6</p>
-                        Then you can find the <span className='italic text-red-400'> Node Project</span> button on the top and click on it. Then click <span className='italic text-red-400'> add node project</span> button
-                            <img className='h-[500px] w-auto mt-4' src="/images/b10.png" alt="" />
+                        <li className='my-4'>
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 7</p>
+                            Then you can find the <span className='italic text-red-400'> Node Project</span> button on the top and click on it. Then click <span className='italic text-red-400'> add node project</span> button
+                            <img className='h-auto w-auto mt-4' src="/images/b10.png" alt="" />
                         </li>
-                        <li className='my-4'> 
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 7</p>
-                        Then click the pointed button,
+                        <li className='my-4'>
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 8</p>
+                            Then click the pointed button,
                             <ul className='list-disc'>
                                 <li>to select your folder path,</li>
                                 <li>fill up the Name, (do not give line space in the name, use underscore)</li>
@@ -55,19 +61,19 @@ const backend = () => {
                             Then click on confirm button. Make sure all information is correct.
                             <img className='h-auto w-auto mt-4' src="/images/b11.png" alt="" />
                         </li>
-                        <li className='my-4'> 
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 8</p>
-                        Then click the file and right-click on your mouse, then you can get a new window
-                            <img className='h-[500px] w-auto mt-4' src="/images/b12.png" alt="" />
+                        <li className='my-4'>
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 9</p>
+                            Then click the file and right-click on your mouse, then you can get a new window
+                            <img className='h-auto w-auto mt-4' src="/images/b12.png" alt="" />
                         </li>
-                        <li className='my-4'> 
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 9</p>
-                        Then Click SSL, then select two checkboxes and apply them
+                        <li className='my-4'>
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 10</p>
+                            Then Click SSL, then select two checkboxes and apply them
                             <img className='h-auto w-auto mt-4' src="/images/b15.png" alt="" />
                         </li>
                         <li className='my-4'>
-                        <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 10</p>
-                             Then you can see on the top of the window a Force HTTPS switch, please click it on
+                            <p className='border-b-[1px] border-black font-semibold text-[18px]'>Step 11</p>
+                            Then you can see on the top of the window a Force HTTPS switch, please click it on
                             <img className='h-auto w-auto mt-4' src="/images/b14.png" alt="" />
                         </li>
                     </ul>
